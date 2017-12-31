@@ -23,7 +23,7 @@ import (
 	"strings"
 	"sync"
 
-	"github.com/go-goldiam/gol/common/hexutil"
+	"github.com/GoldiamTech/go-goldiam/common/hexutil"
 	"gopkg.in/fatih/set.v0"
 )
 

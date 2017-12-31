@@ -19,8 +19,8 @@ package runtime_test
 import (
 	"fmt"
 
-	"github.com/go-goldiam/gol/common"
-	"github.com/go-goldiam/gol/core/vm/runtime"
+	"github.com/GoldiamTech/go-goldiam/common"
+	"github.com/GoldiamTech/go-goldiam/core/vm/runtime"
 )
 
 func ExampleExecute() {

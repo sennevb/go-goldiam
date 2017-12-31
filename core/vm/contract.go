@@ -19,7 +19,7 @@ package vm
 import (
 	"math/big"
 
-	"github.com/go-goldiam/gol/common"
+	"github.com/GoldiamTech/go-goldiam/common"
 )
 
 // ContractRef is a reference to the contract's backing object

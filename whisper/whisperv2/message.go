@@ -26,10 +26,10 @@ import (
 	"math/rand"
 	"time"
 
-	"github.com/go-goldiam/gol/common"
-	"github.com/go-goldiam/gol/crypto"
-	"github.com/go-goldiam/gol/crypto/ecies"
-	"github.com/go-goldiam/gol/log"
+	"github.com/GoldiamTech/go-goldiam/common"
+	"github.com/GoldiamTech/go-goldiam/crypto"
+	"github.com/GoldiamTech/go-goldiam/crypto/ecies"
+	"github.com/GoldiamTech/go-goldiam/log"
 )
 
 // Message represents an end-user data packet to transmit through the Whisper

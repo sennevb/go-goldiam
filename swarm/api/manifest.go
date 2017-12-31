@@ -25,9 +25,9 @@ import (
 	"sync"
 	"time"
 
-	"github.com/go-goldiam/gol/common"
-	"github.com/go-goldiam/gol/log"
-	"github.com/go-goldiam/gol/swarm/storage"
+	"github.com/GoldiamTech/go-goldiam/common"
+	"github.com/GoldiamTech/go-goldiam/log"
+	"github.com/GoldiamTech/go-goldiam/swarm/storage"
 )
 
 const (

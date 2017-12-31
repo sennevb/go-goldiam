@@ -30,8 +30,8 @@ import (
 	"testing"
 	"time"
 
-	"github.com/go-goldiam/gol/accounts/keystore"
-	"github.com/go-goldiam/gol/core/types"
+	"github.com/GoldiamTech/go-goldiam/accounts/keystore"
+	"github.com/GoldiamTech/go-goldiam/core/types"
 )
 
 // Tests that the account management snippets work correctly.

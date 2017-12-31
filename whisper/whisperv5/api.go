@@ -24,12 +24,12 @@ import (
 	"sync"
 	"time"
 
-	"github.com/go-goldiam/gol/common"
-	"github.com/go-goldiam/gol/common/hexutil"
-	"github.com/go-goldiam/gol/crypto"
-	"github.com/go-goldiam/gol/log"
-	"github.com/go-goldiam/gol/p2p/discover"
-	"github.com/go-goldiam/gol/rpc"
+	"github.com/GoldiamTech/go-goldiam/common"
+	"github.com/GoldiamTech/go-goldiam/common/hexutil"
+	"github.com/GoldiamTech/go-goldiam/crypto"
+	"github.com/GoldiamTech/go-goldiam/log"
+	"github.com/GoldiamTech/go-goldiam/p2p/discover"
+	"github.com/GoldiamTech/go-goldiam/rpc"
 )
 
 const (
@@ -104,7 +104,7 @@ func (api *PublicWhisperAPI) Info(ctx context.Context) Info {
 	stats := api.w.Stats()
 	return Info{
 		Memory:         stats.memoryUsed,
-		Messages:        len(api.w.messageQueue) + len(api.w.p2pMsgQueue),
+		Messages:       len(api.w.messageQueue) + len(api.w.p2pMsgQueue),
 		MinPow:         api.w.MinPow(),
 		MaxMessageSize: api.w.MaxMessageSize(),
 	}

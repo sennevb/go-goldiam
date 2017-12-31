@@ -24,9 +24,9 @@ import (
 	"net"
 	"time"
 
-	"github.com/go-goldiam/gol/log"
-	"github.com/go-goldiam/gol/p2p/discover"
-	"github.com/go-goldiam/gol/p2p/netutil"
+	"github.com/GoldiamTech/go-goldiam/log"
+	"github.com/GoldiamTech/go-goldiam/p2p/discover"
+	"github.com/GoldiamTech/go-goldiam/p2p/netutil"
 )
 
 const (

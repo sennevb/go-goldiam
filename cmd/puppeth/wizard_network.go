@@ -20,7 +20,7 @@ import (
 	"fmt"
 	"strings"
 
-	"github.com/go-goldiam/gol/log"
+	"github.com/GoldiamTech/go-goldiam/log"
 )
 
 // manageServers displays a list of servers the user can disconnect from, and an

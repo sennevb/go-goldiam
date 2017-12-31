@@ -40,7 +40,7 @@ import (
 	"math/big"
 	"testing"
 
-	"github.com/go-goldiam/gol/crypto"
+	"github.com/GoldiamTech/go-goldiam/crypto"
 )
 
 var dumpEnc bool

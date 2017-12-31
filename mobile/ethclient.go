@@ -21,8 +21,8 @@ package geth
 import (
 	"math/big"
 
-	"github.com/go-goldiam/gol/core/types"
-	"github.com/go-goldiam/gol/ethclient"
+	"github.com/GoldiamTech/go-goldiam/core/types"
+	"github.com/GoldiamTech/go-goldiam/ethclient"
 )
 
 // EthereumClient provides access to the Ethereum APIs.

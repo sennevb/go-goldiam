@@ -21,9 +21,9 @@ import (
 	"bytes"
 	"fmt"
 
-	"github.com/go-goldiam/gol/common"
-	"github.com/go-goldiam/gol/crypto/sha3"
-	"github.com/go-goldiam/gol/log"
+	"github.com/GoldiamTech/go-goldiam/common"
+	"github.com/GoldiamTech/go-goldiam/crypto/sha3"
+	"github.com/GoldiamTech/go-goldiam/log"
 	"github.com/rcrowley/go-metrics"
 )
 

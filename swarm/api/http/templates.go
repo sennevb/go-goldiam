@@ -20,7 +20,7 @@ import (
 	"html/template"
 	"path"
 
-	"github.com/go-goldiam/gol/swarm/api"
+	"github.com/GoldiamTech/go-goldiam/swarm/api"
 )
 
 type htmlListData struct {

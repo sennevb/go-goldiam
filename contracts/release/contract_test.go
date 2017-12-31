@@ -21,11 +21,11 @@ import (
 	"math/big"
 	"testing"
 
-	"github.com/go-goldiam/gol/accounts/abi/bind"
-	"github.com/go-goldiam/gol/accounts/abi/bind/backends"
-	"github.com/go-goldiam/gol/common"
-	"github.com/go-goldiam/gol/core"
-	"github.com/go-goldiam/gol/crypto"
+	"github.com/GoldiamTech/go-goldiam/accounts/abi/bind"
+	"github.com/GoldiamTech/go-goldiam/accounts/abi/bind/backends"
+	"github.com/GoldiamTech/go-goldiam/common"
+	"github.com/GoldiamTech/go-goldiam/core"
+	"github.com/GoldiamTech/go-goldiam/crypto"
 )
 
 // setupReleaseTest creates a blockchain simulator and deploys a version oracle

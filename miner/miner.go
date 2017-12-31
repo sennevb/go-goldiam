@@ -21,17 +21,17 @@ import (
 	"fmt"
 	"sync/atomic"
 
-	"github.com/go-goldiam/gol/accounts"
-	"github.com/go-goldiam/gol/common"
-	"github.com/go-goldiam/gol/consensus"
-	"github.com/go-goldiam/gol/core"
-	"github.com/go-goldiam/gol/core/state"
-	"github.com/go-goldiam/gol/core/types"
-	"github.com/go-goldiam/gol/eth/downloader"
-	"github.com/go-goldiam/gol/ethdb"
-	"github.com/go-goldiam/gol/event"
-	"github.com/go-goldiam/gol/log"
-	"github.com/go-goldiam/gol/params"
+	"github.com/GoldiamTech/go-goldiam/accounts"
+	"github.com/GoldiamTech/go-goldiam/common"
+	"github.com/GoldiamTech/go-goldiam/consensus"
+	"github.com/GoldiamTech/go-goldiam/core"
+	"github.com/GoldiamTech/go-goldiam/core/state"
+	"github.com/GoldiamTech/go-goldiam/core/types"
+	"github.com/GoldiamTech/go-goldiam/eth/downloader"
+	"github.com/GoldiamTech/go-goldiam/ethdb"
+	"github.com/GoldiamTech/go-goldiam/event"
+	"github.com/GoldiamTech/go-goldiam/log"
+	"github.com/GoldiamTech/go-goldiam/params"
 )
 
 // Backend wraps all methods required for mining.

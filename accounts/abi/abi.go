@@ -23,7 +23,7 @@ import (
 	"reflect"
 	"strings"
 
-	"github.com/go-goldiam/gol/common"
+	"github.com/GoldiamTech/go-goldiam/common"
 )
 
 // The ABI holds information about a contract's context and available

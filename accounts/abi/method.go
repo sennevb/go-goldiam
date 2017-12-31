@@ -21,7 +21,7 @@ import (
 	"reflect"
 	"strings"
 
-	"github.com/go-goldiam/gol/crypto"
+	"github.com/GoldiamTech/go-goldiam/crypto"
 )
 
 // Callable method given a `Name` and whether the method is a constant.

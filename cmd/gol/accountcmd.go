@@ -20,12 +20,12 @@ import (
 	"fmt"
 	"io/ioutil"
 
-	"github.com/go-goldiam/gol/accounts"
-	"github.com/go-goldiam/gol/accounts/keystore"
-	"github.com/go-goldiam/gol/cmd/utils"
-	"github.com/go-goldiam/gol/console"
-	"github.com/go-goldiam/gol/crypto"
-	"github.com/go-goldiam/gol/log"
+	"github.com/GoldiamTech/go-goldiam/accounts"
+	"github.com/GoldiamTech/go-goldiam/accounts/keystore"
+	"github.com/GoldiamTech/go-goldiam/cmd/utils"
+	"github.com/GoldiamTech/go-goldiam/console"
+	"github.com/GoldiamTech/go-goldiam/crypto"
+	"github.com/GoldiamTech/go-goldiam/log"
 	"gopkg.in/urfave/cli.v1"
 )
 

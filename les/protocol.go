@@ -22,8 +22,8 @@ import (
 	"io"
 	"math/big"
 
-	"github.com/go-goldiam/gol/common"
-	"github.com/go-goldiam/gol/rlp"
+	"github.com/GoldiamTech/go-goldiam/common"
+	"github.com/GoldiamTech/go-goldiam/rlp"
 )
 
 // Constants to match up protocol versions and messages

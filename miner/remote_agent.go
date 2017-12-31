@@ -23,11 +23,11 @@ import (
 	"sync/atomic"
 	"time"
 
-	"github.com/go-goldiam/gol/common"
-	"github.com/go-goldiam/gol/consensus"
-	"github.com/go-goldiam/gol/consensus/ethash"
-	"github.com/go-goldiam/gol/core/types"
-	"github.com/go-goldiam/gol/log"
+	"github.com/GoldiamTech/go-goldiam/common"
+	"github.com/GoldiamTech/go-goldiam/consensus"
+	"github.com/GoldiamTech/go-goldiam/consensus/ethash"
+	"github.com/GoldiamTech/go-goldiam/core/types"
+	"github.com/GoldiamTech/go-goldiam/log"
 )
 
 type hashrate struct {

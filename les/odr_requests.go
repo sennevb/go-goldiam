@@ -23,15 +23,15 @@ import (
 	"errors"
 	"fmt"
 
-	"github.com/go-goldiam/gol/common"
-	"github.com/go-goldiam/gol/core"
-	"github.com/go-goldiam/gol/core/types"
-	"github.com/go-goldiam/gol/crypto"
-	"github.com/go-goldiam/gol/ethdb"
-	"github.com/go-goldiam/gol/light"
-	"github.com/go-goldiam/gol/log"
-	"github.com/go-goldiam/gol/rlp"
-	"github.com/go-goldiam/gol/trie"
+	"github.com/GoldiamTech/go-goldiam/common"
+	"github.com/GoldiamTech/go-goldiam/core"
+	"github.com/GoldiamTech/go-goldiam/core/types"
+	"github.com/GoldiamTech/go-goldiam/crypto"
+	"github.com/GoldiamTech/go-goldiam/ethdb"
+	"github.com/GoldiamTech/go-goldiam/light"
+	"github.com/GoldiamTech/go-goldiam/log"
+	"github.com/GoldiamTech/go-goldiam/rlp"
+	"github.com/GoldiamTech/go-goldiam/trie"
 )
 
 var (

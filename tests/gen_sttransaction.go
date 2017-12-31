@@ -6,8 +6,8 @@ import (
 	"encoding/json"
 	"math/big"
 
-	"github.com/go-goldiam/gol/common/hexutil"
-	"github.com/go-goldiam/gol/common/math"
+	"github.com/GoldiamTech/go-goldiam/common/hexutil"
+	"github.com/GoldiamTech/go-goldiam/common/math"
 )
 
 var _ = (*stTransactionMarshaling)(nil)

@@ -25,11 +25,11 @@ import (
 	"sync"
 	"time"
 
-	ethereum "github.com/go-goldiam/gol"
-	"github.com/go-goldiam/gol/accounts"
-	"github.com/go-goldiam/gol/common"
-	"github.com/go-goldiam/gol/core/types"
-	"github.com/go-goldiam/gol/log"
+	ethereum "github.com/GoldiamTech/go-goldiam"
+	"github.com/GoldiamTech/go-goldiam/accounts"
+	"github.com/GoldiamTech/go-goldiam/common"
+	"github.com/GoldiamTech/go-goldiam/core/types"
+	"github.com/GoldiamTech/go-goldiam/log"
 	"github.com/karalabe/hid"
 )
 

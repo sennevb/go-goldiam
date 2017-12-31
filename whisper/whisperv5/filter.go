@@ -21,8 +21,8 @@ import (
 	"fmt"
 	"sync"
 
-	"github.com/go-goldiam/gol/common"
-	"github.com/go-goldiam/gol/log"
+	"github.com/GoldiamTech/go-goldiam/common"
+	"github.com/GoldiamTech/go-goldiam/log"
 )
 
 type Filter struct {

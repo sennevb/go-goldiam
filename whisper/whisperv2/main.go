@@ -27,12 +27,12 @@ import (
 	"os"
 	"time"
 
-	"github.com/go-goldiam/gol/common"
-	"github.com/go-goldiam/gol/crypto"
-	"github.com/go-goldiam/gol/logger"
-	"github.com/go-goldiam/gol/p2p"
-	"github.com/go-goldiam/gol/p2p/nat"
-	"github.com/go-goldiam/gol/whisper"
+	"github.com/GoldiamTech/go-goldiam/common"
+	"github.com/GoldiamTech/go-goldiam/crypto"
+	"github.com/GoldiamTech/go-goldiam/logger"
+	"github.com/GoldiamTech/go-goldiam/p2p"
+	"github.com/GoldiamTech/go-goldiam/p2p/nat"
+	"github.com/GoldiamTech/go-goldiam/whisper"
 )
 
 func main() {

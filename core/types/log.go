@@ -20,9 +20,9 @@ import (
 	"fmt"
 	"io"
 
-	"github.com/go-goldiam/gol/common"
-	"github.com/go-goldiam/gol/common/hexutil"
-	"github.com/go-goldiam/gol/rlp"
+	"github.com/GoldiamTech/go-goldiam/common"
+	"github.com/GoldiamTech/go-goldiam/common/hexutil"
+	"github.com/GoldiamTech/go-goldiam/rlp"
 )
 
 //go:generate gencodec -type Log -field-override logMarshaling -out gen_log_json.go

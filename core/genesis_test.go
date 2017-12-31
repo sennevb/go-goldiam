@@ -21,12 +21,12 @@ import (
 	"reflect"
 	"testing"
 
+	"github.com/GoldiamTech/go-goldiam/common"
+	"github.com/GoldiamTech/go-goldiam/consensus/ethash"
+	"github.com/GoldiamTech/go-goldiam/core/vm"
+	"github.com/GoldiamTech/go-goldiam/ethdb"
+	"github.com/GoldiamTech/go-goldiam/params"
 	"github.com/davecgh/go-spew/spew"
-	"github.com/go-goldiam/gol/common"
-	"github.com/go-goldiam/gol/consensus/ethash"
-	"github.com/go-goldiam/gol/core/vm"
-	"github.com/go-goldiam/gol/ethdb"
-	"github.com/go-goldiam/gol/params"
 )
 
 func TestDefaultGenesisBlock(t *testing.T) {

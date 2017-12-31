@@ -26,7 +26,7 @@ import (
 	"os"
 	"strings"
 
-	"github.com/go-goldiam/gol/rlp"
+	"github.com/GoldiamTech/go-goldiam/rlp"
 )
 
 var (

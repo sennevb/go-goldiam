@@ -23,10 +23,10 @@ import (
 	"errors"
 	"time"
 
-	"github.com/go-goldiam/gol/accounts"
-	"github.com/go-goldiam/gol/accounts/keystore"
-	"github.com/go-goldiam/gol/common"
-	"github.com/go-goldiam/gol/crypto"
+	"github.com/GoldiamTech/go-goldiam/accounts"
+	"github.com/GoldiamTech/go-goldiam/accounts/keystore"
+	"github.com/GoldiamTech/go-goldiam/common"
+	"github.com/GoldiamTech/go-goldiam/crypto"
 )
 
 const (

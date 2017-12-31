@@ -20,9 +20,9 @@ import (
 	"container/list"
 	"fmt"
 
-	"github.com/go-goldiam/gol/core/types"
-	"github.com/go-goldiam/gol/ethdb"
-	"github.com/go-goldiam/gol/event"
+	"github.com/GoldiamTech/go-goldiam/core/types"
+	"github.com/GoldiamTech/go-goldiam/ethdb"
+	"github.com/GoldiamTech/go-goldiam/event"
 )
 
 // Implement our EthTest Manager

@@ -19,8 +19,8 @@
 package whisperv5
 
 import (
-	"github.com/go-goldiam/gol/common"
-	"github.com/go-goldiam/gol/common/hexutil"
+	"github.com/GoldiamTech/go-goldiam/common"
+	"github.com/GoldiamTech/go-goldiam/common/hexutil"
 )
 
 // Topic represents a cryptographically secure, probabilistic partial

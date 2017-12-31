@@ -22,7 +22,7 @@ import (
 	"testing"
 	"time"
 
-	"github.com/go-goldiam/gol/crypto"
+	"github.com/GoldiamTech/go-goldiam/crypto"
 )
 
 // Tests whether a message can be wrapped without any identity or encryption.

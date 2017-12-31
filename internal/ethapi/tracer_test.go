@@ -23,9 +23,9 @@ import (
 	"testing"
 	"time"
 
-	"github.com/go-goldiam/gol/common"
-	"github.com/go-goldiam/gol/core/vm"
-	"github.com/go-goldiam/gol/params"
+	"github.com/GoldiamTech/go-goldiam/common"
+	"github.com/GoldiamTech/go-goldiam/core/vm"
+	"github.com/GoldiamTech/go-goldiam/params"
 )
 
 type account struct{}

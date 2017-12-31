@@ -21,7 +21,7 @@ import (
 	"math/rand"
 	"strings"
 
-	"github.com/go-goldiam/gol/common"
+	"github.com/GoldiamTech/go-goldiam/common"
 )
 
 type Address common.Hash

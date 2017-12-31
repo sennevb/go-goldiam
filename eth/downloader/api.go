@@ -20,9 +20,9 @@ import (
 	"context"
 	"sync"
 
-	ethereum "github.com/go-goldiam/gol"
-	"github.com/go-goldiam/gol/event"
-	"github.com/go-goldiam/gol/rpc"
+	ethereum "github.com/GoldiamTech/go-goldiam"
+	"github.com/GoldiamTech/go-goldiam/event"
+	"github.com/GoldiamTech/go-goldiam/rpc"
 )
 
 // PublicDownloaderAPI provides an API which gives information about the current synchronisation status.

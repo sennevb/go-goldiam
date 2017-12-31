@@ -20,10 +20,10 @@ import (
 	"reflect"
 	"testing"
 
+	"github.com/GoldiamTech/go-goldiam/common"
+	"github.com/GoldiamTech/go-goldiam/core/state"
+	"github.com/GoldiamTech/go-goldiam/ethdb"
 	"github.com/davecgh/go-spew/spew"
-	"github.com/go-goldiam/gol/common"
-	"github.com/go-goldiam/gol/core/state"
-	"github.com/go-goldiam/gol/ethdb"
 )
 
 var dumper = spew.ConfigState{Indent: "    "}

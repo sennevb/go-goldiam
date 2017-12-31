@@ -19,8 +19,8 @@ package vm
 import (
 	"math/big"
 
-	"github.com/go-goldiam/gol/common"
-	"github.com/go-goldiam/gol/core/types"
+	"github.com/GoldiamTech/go-goldiam/common"
+	"github.com/GoldiamTech/go-goldiam/core/types"
 )
 
 // StateDB is an EVM database for full state querying.

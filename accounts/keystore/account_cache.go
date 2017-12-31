@@ -28,9 +28,9 @@ import (
 	"sync"
 	"time"
 
-	"github.com/go-goldiam/gol/accounts"
-	"github.com/go-goldiam/gol/common"
-	"github.com/go-goldiam/gol/log"
+	"github.com/GoldiamTech/go-goldiam/accounts"
+	"github.com/GoldiamTech/go-goldiam/common"
+	"github.com/GoldiamTech/go-goldiam/log"
 )
 
 // Minimum amount of time between cache reloads. This limit applies if the platform does

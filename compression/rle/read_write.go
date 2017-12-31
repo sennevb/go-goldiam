@@ -21,7 +21,7 @@ import (
 	"bytes"
 	"errors"
 
-	"github.com/go-goldiam/gol/crypto"
+	"github.com/GoldiamTech/go-goldiam/crypto"
 )
 
 const (

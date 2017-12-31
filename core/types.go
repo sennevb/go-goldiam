@@ -19,9 +19,9 @@ package core
 import (
 	"math/big"
 
-	"github.com/go-goldiam/gol/core/state"
-	"github.com/go-goldiam/gol/core/types"
-	"github.com/go-goldiam/gol/core/vm"
+	"github.com/GoldiamTech/go-goldiam/core/state"
+	"github.com/GoldiamTech/go-goldiam/core/types"
+	"github.com/GoldiamTech/go-goldiam/core/vm"
 )
 
 // Validator is an interface which defines the standard for block validation. It

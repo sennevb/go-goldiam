@@ -20,8 +20,8 @@ import (
 	"fmt"
 	"strings"
 
-	"github.com/go-goldiam/gol/common"
-	"github.com/go-goldiam/gol/crypto"
+	"github.com/GoldiamTech/go-goldiam/common"
+	"github.com/GoldiamTech/go-goldiam/crypto"
 )
 
 // Event is an event potentially triggered by the EVM's LOG mechanism. The Event

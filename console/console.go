@@ -27,9 +27,9 @@ import (
 	"sort"
 	"strings"
 
-	"github.com/go-goldiam/gol/internal/jsre"
-	"github.com/go-goldiam/gol/internal/web3ext"
-	"github.com/go-goldiam/gol/rpc"
+	"github.com/GoldiamTech/go-goldiam/internal/jsre"
+	"github.com/GoldiamTech/go-goldiam/internal/web3ext"
+	"github.com/GoldiamTech/go-goldiam/rpc"
 	"github.com/mattn/go-colorable"
 	"github.com/peterh/liner"
 	"github.com/robertkrimen/otto"
@@ -258,7 +258,7 @@ func (c *Console) AutoCompleteInput(line string, pos int) (string, []string, str
 // console's available modules.
 func (c *Console) Welcome() {
 	// Print some generic Geth metadata
-	fmt.Fprintf(c.printer, "Welcome to the gol JavaScript console!\n\n")
+	fmt.Fprintf(c.printer, "Welcome to the Goldiam JavaScript console!\n\n")
 	c.jsre.Run(`
 		console.log("instance: " + web3.version.node);
 		console.log("coinbase: " + eth.coinbase);

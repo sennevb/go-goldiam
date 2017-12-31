@@ -18,11 +18,11 @@
 package consensus
 
 import (
-	"github.com/go-goldiam/gol/common"
-	"github.com/go-goldiam/gol/core/state"
-	"github.com/go-goldiam/gol/core/types"
-	"github.com/go-goldiam/gol/params"
-	"github.com/go-goldiam/gol/rpc"
+	"github.com/GoldiamTech/go-goldiam/common"
+	"github.com/GoldiamTech/go-goldiam/core/state"
+	"github.com/GoldiamTech/go-goldiam/core/types"
+	"github.com/GoldiamTech/go-goldiam/params"
+	"github.com/GoldiamTech/go-goldiam/rpc"
 )
 
 // ChainReader defines a small collection of methods needed to access the local

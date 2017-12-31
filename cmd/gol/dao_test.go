@@ -23,10 +23,10 @@ import (
 	"path/filepath"
 	"testing"
 
-	"github.com/go-goldiam/gol/common"
-	"github.com/go-goldiam/gol/core"
-	"github.com/go-goldiam/gol/ethdb"
-	"github.com/go-goldiam/gol/params"
+	"github.com/GoldiamTech/go-goldiam/common"
+	"github.com/GoldiamTech/go-goldiam/core"
+	"github.com/GoldiamTech/go-goldiam/ethdb"
+	"github.com/GoldiamTech/go-goldiam/params"
 )
 
 // Genesis block for nodes which don't care about the DAO fork (i.e. not configured)

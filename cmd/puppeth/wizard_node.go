@@ -21,9 +21,9 @@ import (
 	"fmt"
 	"time"
 
-	"github.com/go-goldiam/gol/accounts/keystore"
-	"github.com/go-goldiam/gol/common"
-	"github.com/go-goldiam/gol/log"
+	"github.com/GoldiamTech/go-goldiam/accounts/keystore"
+	"github.com/GoldiamTech/go-goldiam/common"
+	"github.com/GoldiamTech/go-goldiam/log"
 )
 
 // deployNode creates a new node configuration based on some user input.

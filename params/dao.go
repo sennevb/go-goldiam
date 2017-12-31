@@ -19,7 +19,7 @@ package params
 import (
 	"math/big"
 
-	"github.com/go-goldiam/gol/common"
+	"github.com/GoldiamTech/go-goldiam/common"
 )
 
 // DAOForkBlockExtra is the block header extra-data field to set for the DAO fork

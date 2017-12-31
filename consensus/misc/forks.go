@@ -19,9 +19,9 @@ package misc
 import (
 	"fmt"
 
-	"github.com/go-goldiam/gol/common"
-	"github.com/go-goldiam/gol/core/types"
-	"github.com/go-goldiam/gol/params"
+	"github.com/GoldiamTech/go-goldiam/common"
+	"github.com/GoldiamTech/go-goldiam/core/types"
+	"github.com/GoldiamTech/go-goldiam/params"
 )
 
 // VerifyForkHashes verifies that blocks conforming to network hard-forks do have

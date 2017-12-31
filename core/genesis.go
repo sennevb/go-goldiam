@@ -25,15 +25,15 @@ import (
 	"math/big"
 	"strings"
 
-	"github.com/go-goldiam/gol/common"
-	"github.com/go-goldiam/gol/common/hexutil"
-	"github.com/go-goldiam/gol/common/math"
-	"github.com/go-goldiam/gol/core/state"
-	"github.com/go-goldiam/gol/core/types"
-	"github.com/go-goldiam/gol/ethdb"
-	"github.com/go-goldiam/gol/log"
-	"github.com/go-goldiam/gol/params"
-	"github.com/go-goldiam/gol/rlp"
+	"github.com/GoldiamTech/go-goldiam/common"
+	"github.com/GoldiamTech/go-goldiam/common/hexutil"
+	"github.com/GoldiamTech/go-goldiam/common/math"
+	"github.com/GoldiamTech/go-goldiam/core/state"
+	"github.com/GoldiamTech/go-goldiam/core/types"
+	"github.com/GoldiamTech/go-goldiam/ethdb"
+	"github.com/GoldiamTech/go-goldiam/log"
+	"github.com/GoldiamTech/go-goldiam/params"
+	"github.com/GoldiamTech/go-goldiam/rlp"
 )
 
 //go:generate gencodec -type Genesis -field-override genesisSpecMarshaling -out gen_genesis.go

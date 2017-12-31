@@ -23,10 +23,10 @@ import (
 	"math/rand"
 	"time"
 
-	"github.com/go-goldiam/gol/common"
-	"github.com/go-goldiam/gol/core"
-	"github.com/go-goldiam/gol/log"
-	"github.com/go-goldiam/gol/params"
+	"github.com/GoldiamTech/go-goldiam/common"
+	"github.com/GoldiamTech/go-goldiam/core"
+	"github.com/GoldiamTech/go-goldiam/log"
+	"github.com/GoldiamTech/go-goldiam/params"
 )
 
 // makeGenesis creates a new genesis struct based on some user input.

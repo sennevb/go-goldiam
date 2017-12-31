@@ -22,8 +22,8 @@ import (
 	"io"
 	"sort"
 
-	"github.com/go-goldiam/gol/cmd/utils"
-	"github.com/go-goldiam/gol/internal/debug"
+	"github.com/GoldiamTech/go-goldiam/cmd/utils"
+	"github.com/GoldiamTech/go-goldiam/internal/debug"
 	"gopkg.in/urfave/cli.v1"
 )
 

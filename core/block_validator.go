@@ -20,11 +20,11 @@ import (
 	"fmt"
 	"math/big"
 
-	"github.com/go-goldiam/gol/common/math"
-	"github.com/go-goldiam/gol/consensus"
-	"github.com/go-goldiam/gol/core/state"
-	"github.com/go-goldiam/gol/core/types"
-	"github.com/go-goldiam/gol/params"
+	"github.com/GoldiamTech/go-goldiam/common/math"
+	"github.com/GoldiamTech/go-goldiam/consensus"
+	"github.com/GoldiamTech/go-goldiam/core/state"
+	"github.com/GoldiamTech/go-goldiam/core/types"
+	"github.com/GoldiamTech/go-goldiam/params"
 )
 
 // BlockValidator is responsible for validating block headers, uncles and

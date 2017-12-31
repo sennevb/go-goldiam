@@ -25,7 +25,7 @@ import (
 	"path/filepath"
 	"strings"
 
-	"github.com/go-goldiam/gol/log"
+	"github.com/GoldiamTech/go-goldiam/log"
 )
 
 // makeWizard creates and returns a new puppeth wizard.

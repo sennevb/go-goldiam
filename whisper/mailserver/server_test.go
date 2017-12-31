@@ -24,9 +24,9 @@ import (
 	"testing"
 	"time"
 
-	"github.com/go-goldiam/gol/common"
-	"github.com/go-goldiam/gol/crypto"
-	whisper "github.com/go-goldiam/gol/whisper/whisperv5"
+	"github.com/GoldiamTech/go-goldiam/common"
+	"github.com/GoldiamTech/go-goldiam/crypto"
+	whisper "github.com/GoldiamTech/go-goldiam/whisper/whisperv5"
 )
 
 const powRequirement = 0.00001

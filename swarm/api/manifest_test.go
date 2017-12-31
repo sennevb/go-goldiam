@@ -25,7 +25,7 @@ import (
 	"strings"
 	"testing"
 
-	"github.com/go-goldiam/gol/swarm/storage"
+	"github.com/GoldiamTech/go-goldiam/swarm/storage"
 )
 
 func manifest(paths ...string) (manifestReader storage.LazySectionReader) {

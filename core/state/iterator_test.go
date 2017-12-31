@@ -20,7 +20,7 @@ import (
 	"bytes"
 	"testing"
 
-	"github.com/go-goldiam/gol/common"
+	"github.com/GoldiamTech/go-goldiam/common"
 )
 
 // Tests that the node iterator indeed walks over the entire database contents.

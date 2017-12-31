@@ -22,8 +22,8 @@ import (
 	"errors"
 	"math/big"
 
-	ethereum "github.com/go-goldiam/gol"
-	"github.com/go-goldiam/gol/common"
+	ethereum "github.com/GoldiamTech/go-goldiam"
+	"github.com/GoldiamTech/go-goldiam/common"
 )
 
 // Subscription represents an event subscription where events are

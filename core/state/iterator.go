@@ -20,9 +20,9 @@ import (
 	"bytes"
 	"fmt"
 
-	"github.com/go-goldiam/gol/common"
-	"github.com/go-goldiam/gol/rlp"
-	"github.com/go-goldiam/gol/trie"
+	"github.com/GoldiamTech/go-goldiam/common"
+	"github.com/GoldiamTech/go-goldiam/rlp"
+	"github.com/GoldiamTech/go-goldiam/trie"
 )
 
 // NodeIterator is an iterator to traverse the entire state trie post-order,

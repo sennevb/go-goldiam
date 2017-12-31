@@ -21,7 +21,7 @@ import (
 	"math/rand"
 	"testing"
 
-	"github.com/go-goldiam/gol/common/hexutil"
+	"github.com/GoldiamTech/go-goldiam/common/hexutil"
 )
 
 // Tests that data bitset encoding and decoding works and is bijective.

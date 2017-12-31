@@ -22,7 +22,7 @@ import (
 	"reflect"
 	"testing"
 
-	"github.com/go-goldiam/gol/core/vm"
+	"github.com/GoldiamTech/go-goldiam/core/vm"
 )
 
 func TestState(t *testing.T) {

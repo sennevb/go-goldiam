@@ -19,7 +19,7 @@ package event_test
 import (
 	"fmt"
 
-	"github.com/go-goldiam/gol/event"
+	"github.com/GoldiamTech/go-goldiam/event"
 )
 
 func ExampleNewSubscription() {

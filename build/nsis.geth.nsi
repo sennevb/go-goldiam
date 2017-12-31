@@ -29,8 +29,8 @@
 # - sign installer
 CRCCheck on
 
-!define GROUPNAME "gol"
-!define APPNAME "gol"
+!define GROUPNAME "Goldiam"
+!define APPNAME "Goldiam"
 !define DESCRIPTION "Official Go implementation of the Ethereum protocol"
 !addplugindir .\
 

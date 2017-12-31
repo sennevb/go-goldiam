@@ -27,7 +27,7 @@ import (
 	"path"
 	"strings"
 
-	"github.com/go-goldiam/gol/common/math"
+	"github.com/GoldiamTech/go-goldiam/common/math"
 	"gopkg.in/urfave/cli.v1"
 )
 

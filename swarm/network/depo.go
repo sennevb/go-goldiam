@@ -22,8 +22,8 @@ import (
 	"fmt"
 	"time"
 
-	"github.com/go-goldiam/gol/log"
-	"github.com/go-goldiam/gol/swarm/storage"
+	"github.com/GoldiamTech/go-goldiam/log"
+	"github.com/GoldiamTech/go-goldiam/swarm/storage"
 )
 
 // Handler for storage/retrieval related protocol requests

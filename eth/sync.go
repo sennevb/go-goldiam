@@ -21,11 +21,11 @@ import (
 	"sync/atomic"
 	"time"
 
-	"github.com/go-goldiam/gol/common"
-	"github.com/go-goldiam/gol/core/types"
-	"github.com/go-goldiam/gol/eth/downloader"
-	"github.com/go-goldiam/gol/log"
-	"github.com/go-goldiam/gol/p2p/discover"
+	"github.com/GoldiamTech/go-goldiam/common"
+	"github.com/GoldiamTech/go-goldiam/core/types"
+	"github.com/GoldiamTech/go-goldiam/eth/downloader"
+	"github.com/GoldiamTech/go-goldiam/log"
+	"github.com/GoldiamTech/go-goldiam/p2p/discover"
 )
 
 const (

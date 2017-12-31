@@ -27,10 +27,10 @@ import (
 	"errors"
 	"strconv"
 
-	"github.com/go-goldiam/gol/common"
-	"github.com/go-goldiam/gol/crypto"
-	"github.com/go-goldiam/gol/crypto/ecies"
-	"github.com/go-goldiam/gol/log"
+	"github.com/GoldiamTech/go-goldiam/common"
+	"github.com/GoldiamTech/go-goldiam/crypto"
+	"github.com/GoldiamTech/go-goldiam/crypto/ecies"
+	"github.com/GoldiamTech/go-goldiam/log"
 )
 
 // Options specifies the exact way a message should be wrapped into an Envelope.

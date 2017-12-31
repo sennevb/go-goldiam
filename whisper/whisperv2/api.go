@@ -22,9 +22,9 @@ import (
 	"sync"
 	"time"
 
-	"github.com/go-goldiam/gol/common"
-	"github.com/go-goldiam/gol/common/hexutil"
-	"github.com/go-goldiam/gol/crypto"
+	"github.com/GoldiamTech/go-goldiam/common"
+	"github.com/GoldiamTech/go-goldiam/common/hexutil"
+	"github.com/GoldiamTech/go-goldiam/crypto"
 )
 
 // PublicWhisperAPI provides the whisper RPC service.

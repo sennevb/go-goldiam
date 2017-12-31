@@ -37,7 +37,7 @@ import (
 	"sync"
 	"unsafe"
 
-	"github.com/go-goldiam/gol/common/math"
+	"github.com/GoldiamTech/go-goldiam/common/math"
 )
 
 /*

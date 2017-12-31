@@ -22,12 +22,12 @@ import (
 	"testing"
 	"time"
 
-	"github.com/go-goldiam/gol/accounts/abi/bind"
-	"github.com/go-goldiam/gol/accounts/abi/bind/backends"
-	"github.com/go-goldiam/gol/common"
-	"github.com/go-goldiam/gol/core"
-	"github.com/go-goldiam/gol/core/types"
-	"github.com/go-goldiam/gol/crypto"
+	"github.com/GoldiamTech/go-goldiam/accounts/abi/bind"
+	"github.com/GoldiamTech/go-goldiam/accounts/abi/bind/backends"
+	"github.com/GoldiamTech/go-goldiam/common"
+	"github.com/GoldiamTech/go-goldiam/core"
+	"github.com/GoldiamTech/go-goldiam/core/types"
+	"github.com/GoldiamTech/go-goldiam/crypto"
 )
 
 var testKey, _ = crypto.HexToECDSA("b71c71a67e1177ad4e901695e1b4b9ee17ae16c6668d313eac2f96dbcda3f291")

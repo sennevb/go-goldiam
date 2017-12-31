@@ -21,8 +21,8 @@ import (
 	mrand "math/rand"
 	"testing"
 
-	"github.com/go-goldiam/gol/crypto"
-	"github.com/go-goldiam/gol/rlp"
+	"github.com/GoldiamTech/go-goldiam/crypto"
+	"github.com/GoldiamTech/go-goldiam/rlp"
 )
 
 func generateMessageParams() (*MessageParams, error) {

@@ -19,9 +19,9 @@ package vm
 import (
 	"math/big"
 
-	"github.com/go-goldiam/gol/common"
-	"github.com/go-goldiam/gol/common/math"
-	"github.com/go-goldiam/gol/params"
+	"github.com/GoldiamTech/go-goldiam/common"
+	"github.com/GoldiamTech/go-goldiam/common/math"
+	"github.com/GoldiamTech/go-goldiam/params"
 )
 
 // memoryGasCosts calculates the quadratic gas for memory expansion. It does so

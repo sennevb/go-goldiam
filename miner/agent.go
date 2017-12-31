@@ -21,8 +21,8 @@ import (
 
 	"sync/atomic"
 
-	"github.com/go-goldiam/gol/consensus"
-	"github.com/go-goldiam/gol/log"
+	"github.com/GoldiamTech/go-goldiam/consensus"
+	"github.com/GoldiamTech/go-goldiam/log"
 )
 
 type CpuAgent struct {

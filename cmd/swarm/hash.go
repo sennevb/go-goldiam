@@ -21,8 +21,8 @@ import (
 	"fmt"
 	"os"
 
-	"github.com/go-goldiam/gol/cmd/utils"
-	"github.com/go-goldiam/gol/swarm/storage"
+	"github.com/GoldiamTech/go-goldiam/cmd/utils"
+	"github.com/GoldiamTech/go-goldiam/swarm/storage"
 	"gopkg.in/urfave/cli.v1"
 )
 

@@ -20,8 +20,8 @@ import (
 	"math/big"
 	"reflect"
 
-	"github.com/go-goldiam/gol/common"
-	"github.com/go-goldiam/gol/common/math"
+	"github.com/GoldiamTech/go-goldiam/common"
+	"github.com/GoldiamTech/go-goldiam/common/math"
 )
 
 var (

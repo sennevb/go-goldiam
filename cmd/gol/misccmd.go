@@ -23,10 +23,10 @@ import (
 	"strconv"
 	"strings"
 
-	"github.com/go-goldiam/gol/cmd/utils"
-	"github.com/go-goldiam/gol/consensus/ethash"
-	"github.com/go-goldiam/gol/eth"
-	"github.com/go-goldiam/gol/params"
+	"github.com/GoldiamTech/go-goldiam/cmd/utils"
+	"github.com/GoldiamTech/go-goldiam/consensus/ethash"
+	"github.com/GoldiamTech/go-goldiam/eth"
+	"github.com/GoldiamTech/go-goldiam/params"
 	"gopkg.in/urfave/cli.v1"
 )
 

@@ -20,7 +20,7 @@ import (
 	"math/big"
 	"testing"
 
-	"github.com/go-goldiam/gol/core/types"
+	"github.com/GoldiamTech/go-goldiam/core/types"
 )
 
 // Tests that ethash works correctly in test mode.

@@ -21,7 +21,7 @@ import (
 	"testing"
 	"time"
 
-	"github.com/go-goldiam/gol/common"
+	"github.com/GoldiamTech/go-goldiam/common"
 )
 
 type testInPayment struct {

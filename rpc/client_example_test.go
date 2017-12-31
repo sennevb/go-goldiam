@@ -22,7 +22,7 @@ import (
 	"math/big"
 	"time"
 
-	"github.com/go-goldiam/gol/rpc"
+	"github.com/GoldiamTech/go-goldiam/rpc"
 )
 
 // In this example, our client whishes to track the latest 'block number'

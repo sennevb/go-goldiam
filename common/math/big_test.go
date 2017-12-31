@@ -22,7 +22,7 @@ import (
 	"math/big"
 	"testing"
 
-	"github.com/go-goldiam/gol/common"
+	"github.com/GoldiamTech/go-goldiam/common"
 )
 
 func TestHexOrDecimal256(t *testing.T) {

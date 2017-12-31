@@ -27,7 +27,7 @@ import (
 	"testing"
 	"time"
 
-	"github.com/go-goldiam/gol/params"
+	"github.com/GoldiamTech/go-goldiam/params"
 )
 
 const (

@@ -23,8 +23,8 @@ import (
 	"reflect"
 	"testing"
 
-	"github.com/go-goldiam/gol/common"
-	"github.com/go-goldiam/gol/rlp"
+	"github.com/GoldiamTech/go-goldiam/common"
+	"github.com/GoldiamTech/go-goldiam/rlp"
 )
 
 // from bcValidBlockTest.json, "SimpleTx"

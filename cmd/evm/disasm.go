@@ -22,7 +22,7 @@ import (
 	"io/ioutil"
 	"strings"
 
-	"github.com/go-goldiam/gol/core/asm"
+	"github.com/GoldiamTech/go-goldiam/core/asm"
 	cli "gopkg.in/urfave/cli.v1"
 )
 

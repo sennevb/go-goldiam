@@ -24,9 +24,9 @@ import (
 	"testing"
 	"time"
 
-	"github.com/go-goldiam/gol/crypto"
-	"github.com/go-goldiam/gol/p2p"
-	"github.com/go-goldiam/gol/rpc"
+	"github.com/GoldiamTech/go-goldiam/crypto"
+	"github.com/GoldiamTech/go-goldiam/p2p"
+	"github.com/GoldiamTech/go-goldiam/rpc"
 )
 
 var (

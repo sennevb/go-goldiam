@@ -23,8 +23,8 @@ import (
 	"math/rand"
 	"reflect"
 
-	"github.com/go-goldiam/gol/common/hexutil"
-	"github.com/go-goldiam/gol/crypto/sha3"
+	"github.com/GoldiamTech/go-goldiam/common/hexutil"
+	"github.com/GoldiamTech/go-goldiam/crypto/sha3"
 )
 
 const (

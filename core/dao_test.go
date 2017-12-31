@@ -20,10 +20,10 @@ import (
 	"math/big"
 	"testing"
 
-	"github.com/go-goldiam/gol/consensus/ethash"
-	"github.com/go-goldiam/gol/core/vm"
-	"github.com/go-goldiam/gol/ethdb"
-	"github.com/go-goldiam/gol/params"
+	"github.com/GoldiamTech/go-goldiam/consensus/ethash"
+	"github.com/GoldiamTech/go-goldiam/core/vm"
+	"github.com/GoldiamTech/go-goldiam/ethdb"
+	"github.com/GoldiamTech/go-goldiam/params"
 )
 
 // Tests that DAO-fork enabled clients can properly filter out fork-commencing

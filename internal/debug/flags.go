@@ -24,8 +24,8 @@ import (
 	"os"
 	"runtime"
 
-	"github.com/go-goldiam/gol/log"
-	"github.com/go-goldiam/gol/log/term"
+	"github.com/GoldiamTech/go-goldiam/log"
+	"github.com/GoldiamTech/go-goldiam/log/term"
 	colorable "github.com/mattn/go-colorable"
 	"gopkg.in/urfave/cli.v1"
 )

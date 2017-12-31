@@ -30,9 +30,9 @@ import (
 	"strings"
 	"syscall"
 
-	"github.com/go-goldiam/gol/common"
-	"github.com/go-goldiam/gol/core"
-	"github.com/go-goldiam/gol/log"
+	"github.com/GoldiamTech/go-goldiam/common"
+	"github.com/GoldiamTech/go-goldiam/core"
+	"github.com/GoldiamTech/go-goldiam/log"
 	"golang.org/x/crypto/ssh/terminal"
 )
 

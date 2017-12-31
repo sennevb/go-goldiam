@@ -23,13 +23,13 @@ import (
 	"os"
 	"testing"
 
-	"github.com/go-goldiam/gol/common"
-	"github.com/go-goldiam/gol/core/types"
-	"github.com/go-goldiam/gol/crypto"
-	"github.com/go-goldiam/gol/crypto/sha3"
-	"github.com/go-goldiam/gol/ethdb"
-	"github.com/go-goldiam/gol/params"
-	"github.com/go-goldiam/gol/rlp"
+	"github.com/GoldiamTech/go-goldiam/common"
+	"github.com/GoldiamTech/go-goldiam/core/types"
+	"github.com/GoldiamTech/go-goldiam/crypto"
+	"github.com/GoldiamTech/go-goldiam/crypto/sha3"
+	"github.com/GoldiamTech/go-goldiam/ethdb"
+	"github.com/GoldiamTech/go-goldiam/params"
+	"github.com/GoldiamTech/go-goldiam/rlp"
 )
 
 // Tests block header storage and retrieval operations.

@@ -19,10 +19,10 @@ package shhclient
 import (
 	"context"
 
-	"github.com/go-goldiam/gol"
-	"github.com/go-goldiam/gol/common/hexutil"
-	"github.com/go-goldiam/gol/rpc"
-	whisper "github.com/go-goldiam/gol/whisper/whisperv5"
+	"github.com/GoldiamTech/go-goldiam"
+	"github.com/GoldiamTech/go-goldiam/common/hexutil"
+	"github.com/GoldiamTech/go-goldiam/rpc"
+	whisper "github.com/GoldiamTech/go-goldiam/whisper/whisperv5"
 )
 
 // Client defines typed wrappers for the Whisper v5 RPC API.

@@ -26,8 +26,8 @@ import (
 	"math/rand"
 	"time"
 
-	"github.com/go-goldiam/gol/common"
-	"github.com/go-goldiam/gol/internal/jsre/deps"
+	"github.com/GoldiamTech/go-goldiam/common"
+	"github.com/GoldiamTech/go-goldiam/internal/jsre/deps"
 	"github.com/robertkrimen/otto"
 )
 

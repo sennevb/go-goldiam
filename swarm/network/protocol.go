@@ -37,12 +37,12 @@ import (
 	"strconv"
 	"time"
 
-	"github.com/go-goldiam/gol/contracts/chequebook"
-	"github.com/go-goldiam/gol/log"
-	"github.com/go-goldiam/gol/p2p"
-	bzzswap "github.com/go-goldiam/gol/swarm/services/swap"
-	"github.com/go-goldiam/gol/swarm/services/swap/swap"
-	"github.com/go-goldiam/gol/swarm/storage"
+	"github.com/GoldiamTech/go-goldiam/contracts/chequebook"
+	"github.com/GoldiamTech/go-goldiam/log"
+	"github.com/GoldiamTech/go-goldiam/p2p"
+	bzzswap "github.com/GoldiamTech/go-goldiam/swarm/services/swap"
+	"github.com/GoldiamTech/go-goldiam/swarm/services/swap/swap"
+	"github.com/GoldiamTech/go-goldiam/swarm/storage"
 )
 
 const (

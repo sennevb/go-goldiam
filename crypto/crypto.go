@@ -28,10 +28,10 @@ import (
 	"math/big"
 	"os"
 
-	"github.com/go-goldiam/gol/common"
-	"github.com/go-goldiam/gol/common/math"
-	"github.com/go-goldiam/gol/crypto/sha3"
-	"github.com/go-goldiam/gol/rlp"
+	"github.com/GoldiamTech/go-goldiam/common"
+	"github.com/GoldiamTech/go-goldiam/common/math"
+	"github.com/GoldiamTech/go-goldiam/crypto/sha3"
+	"github.com/GoldiamTech/go-goldiam/rlp"
 )
 
 var (

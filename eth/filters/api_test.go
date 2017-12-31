@@ -21,8 +21,8 @@ import (
 	"fmt"
 	"testing"
 
-	"github.com/go-goldiam/gol/common"
-	"github.com/go-goldiam/gol/rpc"
+	"github.com/GoldiamTech/go-goldiam/common"
+	"github.com/GoldiamTech/go-goldiam/rpc"
 )
 
 func TestUnmarshalJSONNewFilterArgs(t *testing.T) {

@@ -24,7 +24,7 @@ import (
 	"os/exec"
 	"runtime"
 
-	"github.com/go-goldiam/gol/log"
+	"github.com/GoldiamTech/go-goldiam/log"
 )
 
 func externalUnmount(mountPoint string) error {

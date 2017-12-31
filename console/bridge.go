@@ -23,9 +23,9 @@ import (
 	"strings"
 	"time"
 
-	"github.com/go-goldiam/gol/accounts/usbwallet"
-	"github.com/go-goldiam/gol/log"
-	"github.com/go-goldiam/gol/rpc"
+	"github.com/GoldiamTech/go-goldiam/accounts/usbwallet"
+	"github.com/GoldiamTech/go-goldiam/log"
+	"github.com/GoldiamTech/go-goldiam/rpc"
 	"github.com/robertkrimen/otto"
 )
 

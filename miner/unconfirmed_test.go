@@ -19,8 +19,8 @@ package miner
 import (
 	"testing"
 
-	"github.com/go-goldiam/gol/common"
-	"github.com/go-goldiam/gol/core/types"
+	"github.com/GoldiamTech/go-goldiam/common"
+	"github.com/GoldiamTech/go-goldiam/core/types"
 )
 
 // noopHeaderRetriever is an implementation of headerRetriever that always

@@ -20,17 +20,17 @@ import (
 	"fmt"
 	"net/http"
 
-	"github.com/go-goldiam/gol/log"
+	"github.com/GoldiamTech/go-goldiam/log"
 )
 
 /*
 http roundtripper to register for bzz url scheme
-see https://github.com/go-goldiam/gol/issues/2040
+see https://github.com/GoldiamTech/go-goldiam/issues/2040
 Usage:
 
 import (
- "github.com/go-goldiam/gol/common/httpclient"
- "github.com/go-goldiam/gol/swarm/api/http"
+ "github.com/GoldiamTech/go-goldiam/common/httpclient"
+ "github.com/GoldiamTech/go-goldiam/swarm/api/http"
 )
 client := httpclient.New()
 // for (private) swarm proxy running locally

@@ -20,7 +20,7 @@ import (
 	"errors"
 	"math/big"
 
-	"github.com/go-goldiam/gol/common"
+	"github.com/GoldiamTech/go-goldiam/common"
 )
 
 const Version = "1.0"

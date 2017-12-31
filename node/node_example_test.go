@@ -20,9 +20,9 @@ import (
 	"fmt"
 	"log"
 
-	"github.com/go-goldiam/gol/node"
-	"github.com/go-goldiam/gol/p2p"
-	"github.com/go-goldiam/gol/rpc"
+	"github.com/GoldiamTech/go-goldiam/node"
+	"github.com/GoldiamTech/go-goldiam/p2p"
+	"github.com/GoldiamTech/go-goldiam/rpc"
 )
 
 // SampleService is a trivial network service that can be attached to a node for

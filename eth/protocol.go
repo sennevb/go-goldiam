@@ -21,11 +21,11 @@ import (
 	"io"
 	"math/big"
 
-	"github.com/go-goldiam/gol/common"
-	"github.com/go-goldiam/gol/core"
-	"github.com/go-goldiam/gol/core/types"
-	"github.com/go-goldiam/gol/event"
-	"github.com/go-goldiam/gol/rlp"
+	"github.com/GoldiamTech/go-goldiam/common"
+	"github.com/GoldiamTech/go-goldiam/core"
+	"github.com/GoldiamTech/go-goldiam/core/types"
+	"github.com/GoldiamTech/go-goldiam/event"
+	"github.com/GoldiamTech/go-goldiam/rlp"
 )
 
 // Constants to match up protocol versions and messages
@@ -48,6 +48,7 @@ const (
 	NetworkId          = 3125659152
 	ProtocolMaxMsgSize = 10 * 1024 * 1024 // Maximum cap on the size of a protocol message
 )
+
 // eth protocol message codes
 const (
 	// Protocol messages belonging to eth/62

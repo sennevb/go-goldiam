@@ -22,12 +22,12 @@ import (
 	"fmt"
 	"math/big"
 
-	"github.com/go-goldiam/gol/common"
-	"github.com/go-goldiam/gol/common/hexutil"
-	"github.com/go-goldiam/gol/common/math"
-	"github.com/go-goldiam/gol/core/types"
-	"github.com/go-goldiam/gol/params"
-	"github.com/go-goldiam/gol/rlp"
+	"github.com/GoldiamTech/go-goldiam/common"
+	"github.com/GoldiamTech/go-goldiam/common/hexutil"
+	"github.com/GoldiamTech/go-goldiam/common/math"
+	"github.com/GoldiamTech/go-goldiam/core/types"
+	"github.com/GoldiamTech/go-goldiam/params"
+	"github.com/GoldiamTech/go-goldiam/rlp"
 )
 
 // TransactionTest checks RLP decoding and sender derivation of transactions.

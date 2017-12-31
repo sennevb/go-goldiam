@@ -22,8 +22,8 @@ import (
 	"path/filepath"
 	"runtime"
 
-	"github.com/go-goldiam/gol/p2p"
-	"github.com/go-goldiam/gol/p2p/nat"
+	"github.com/GoldiamTech/go-goldiam/p2p"
+	"github.com/GoldiamTech/go-goldiam/p2p/nat"
 )
 
 const (
@@ -55,9 +55,9 @@ func DefaultDataDir() string {
 	home := homeDir()
 	if home != "" {
 		if runtime.GOOS == "darwin" {
-			return filepath.Join(home, "Library", "gol")
+			return filepath.Join(home, "Library", "Goldiam")
 		} else if runtime.GOOS == "windows" {
-			return filepath.Join(home, "AppData", "Roaming", "gol")
+			return filepath.Join(home, "AppData", "Roaming", "Goldiam")
 		} else {
 			return filepath.Join(home, ".gol")
 		}

@@ -17,7 +17,7 @@
 package fuse
 
 import (
-	"github.com/go-goldiam/gol/swarm/api"
+	"github.com/GoldiamTech/go-goldiam/swarm/api"
 	"sync"
 	"time"
 )

@@ -22,10 +22,10 @@ import (
 	"math/big"
 	"strings"
 
-	"github.com/go-goldiam/gol/accounts/abi"
-	"github.com/go-goldiam/gol/accounts/abi/bind"
-	"github.com/go-goldiam/gol/common"
-	"github.com/go-goldiam/gol/core/types"
+	"github.com/GoldiamTech/go-goldiam/accounts/abi"
+	"github.com/GoldiamTech/go-goldiam/accounts/abi/bind"
+	"github.com/GoldiamTech/go-goldiam/common"
+	"github.com/GoldiamTech/go-goldiam/core/types"
 )
 
 // Signer is an interaface defining the callback when a contract requires a

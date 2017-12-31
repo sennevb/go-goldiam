@@ -21,7 +21,7 @@ import (
 	"fmt"
 	"io/ioutil"
 
-	"github.com/go-goldiam/gol/cmd/evm/internal/compiler"
+	"github.com/GoldiamTech/go-goldiam/cmd/evm/internal/compiler"
 
 	cli "gopkg.in/urfave/cli.v1"
 )

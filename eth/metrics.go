@@ -17,8 +17,8 @@
 package eth
 
 import (
-	"github.com/go-goldiam/gol/metrics"
-	"github.com/go-goldiam/gol/p2p"
+	"github.com/GoldiamTech/go-goldiam/metrics"
+	"github.com/GoldiamTech/go-goldiam/p2p"
 )
 
 var (

@@ -20,7 +20,7 @@ import (
 	"errors"
 	"fmt"
 
-	"github.com/go-goldiam/gol/common"
+	"github.com/GoldiamTech/go-goldiam/common"
 	"gopkg.in/karalabe/cookiejar.v2/collections/prque"
 )
 

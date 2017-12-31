@@ -26,14 +26,14 @@ import (
 	"sync"
 	"time"
 
-	"github.com/go-goldiam/gol/accounts/abi/bind"
-	"github.com/go-goldiam/gol/common"
-	"github.com/go-goldiam/gol/contracts/chequebook"
-	"github.com/go-goldiam/gol/contracts/chequebook/contract"
-	"github.com/go-goldiam/gol/core/types"
-	"github.com/go-goldiam/gol/crypto"
-	"github.com/go-goldiam/gol/log"
-	"github.com/go-goldiam/gol/swarm/services/swap/swap"
+	"github.com/GoldiamTech/go-goldiam/accounts/abi/bind"
+	"github.com/GoldiamTech/go-goldiam/common"
+	"github.com/GoldiamTech/go-goldiam/contracts/chequebook"
+	"github.com/GoldiamTech/go-goldiam/contracts/chequebook/contract"
+	"github.com/GoldiamTech/go-goldiam/core/types"
+	"github.com/GoldiamTech/go-goldiam/crypto"
+	"github.com/GoldiamTech/go-goldiam/log"
+	"github.com/GoldiamTech/go-goldiam/swarm/services/swap/swap"
 )
 
 // SwAP       Swarm Accounting Protocol with

@@ -21,11 +21,11 @@ import (
 	"testing"
 	"time"
 
-	"github.com/go-goldiam/gol/common"
-	"github.com/go-goldiam/gol/core"
-	"github.com/go-goldiam/gol/crypto"
-	"github.com/go-goldiam/gol/ethdb"
-	"github.com/go-goldiam/gol/light"
+	"github.com/GoldiamTech/go-goldiam/common"
+	"github.com/GoldiamTech/go-goldiam/core"
+	"github.com/GoldiamTech/go-goldiam/crypto"
+	"github.com/GoldiamTech/go-goldiam/ethdb"
+	"github.com/GoldiamTech/go-goldiam/light"
 )
 
 var testBankSecureTrieKey = secAddr(testBankAddress)

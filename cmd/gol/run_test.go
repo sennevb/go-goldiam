@@ -22,8 +22,8 @@ import (
 	"os"
 	"testing"
 
+	"github.com/GoldiamTech/go-goldiam/internal/cmdtest"
 	"github.com/docker/docker/pkg/reexec"
-	"github.com/go-goldiam/gol/internal/cmdtest"
 )
 
 func tmpdir(t *testing.T) string {

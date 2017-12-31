@@ -20,7 +20,7 @@ import (
 	"math/big"
 	"testing"
 
-	"github.com/go-goldiam/gol/params"
+	"github.com/GoldiamTech/go-goldiam/params"
 )
 
 func TestTransaction(t *testing.T) {

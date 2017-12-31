@@ -27,16 +27,16 @@ import (
 
 	goruntime "runtime"
 
-	"github.com/go-goldiam/gol/cmd/evm/internal/compiler"
-	"github.com/go-goldiam/gol/cmd/utils"
-	"github.com/go-goldiam/gol/common"
-	"github.com/go-goldiam/gol/core"
-	"github.com/go-goldiam/gol/core/state"
-	"github.com/go-goldiam/gol/core/vm"
-	"github.com/go-goldiam/gol/core/vm/runtime"
-	"github.com/go-goldiam/gol/ethdb"
-	"github.com/go-goldiam/gol/log"
-	"github.com/go-goldiam/gol/params"
+	"github.com/GoldiamTech/go-goldiam/cmd/evm/internal/compiler"
+	"github.com/GoldiamTech/go-goldiam/cmd/utils"
+	"github.com/GoldiamTech/go-goldiam/common"
+	"github.com/GoldiamTech/go-goldiam/core"
+	"github.com/GoldiamTech/go-goldiam/core/state"
+	"github.com/GoldiamTech/go-goldiam/core/vm"
+	"github.com/GoldiamTech/go-goldiam/core/vm/runtime"
+	"github.com/GoldiamTech/go-goldiam/ethdb"
+	"github.com/GoldiamTech/go-goldiam/log"
+	"github.com/GoldiamTech/go-goldiam/params"
 	cli "gopkg.in/urfave/cli.v1"
 )
 

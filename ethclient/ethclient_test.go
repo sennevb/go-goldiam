@@ -16,7 +16,7 @@
 
 package ethclient
 
-import "github.com/go-goldiam/gol"
+import "github.com/GoldiamTech/go-goldiam"
 
 // Verify that Client implements the ethereum interfaces.
 var (

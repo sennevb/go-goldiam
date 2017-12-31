@@ -21,9 +21,9 @@ import (
 	"errors"
 	"math/big"
 
-	"github.com/go-goldiam/gol"
-	"github.com/go-goldiam/gol/common"
-	"github.com/go-goldiam/gol/core/types"
+	"github.com/GoldiamTech/go-goldiam"
+	"github.com/GoldiamTech/go-goldiam/common"
+	"github.com/GoldiamTech/go-goldiam/core/types"
 )
 
 var (

@@ -22,12 +22,12 @@ import (
 	"testing"
 	"time"
 
-	"github.com/go-goldiam/gol/common"
-	"github.com/go-goldiam/gol/core/types"
-	"github.com/go-goldiam/gol/crypto"
-	"github.com/go-goldiam/gol/eth/downloader"
-	"github.com/go-goldiam/gol/p2p"
-	"github.com/go-goldiam/gol/rlp"
+	"github.com/GoldiamTech/go-goldiam/common"
+	"github.com/GoldiamTech/go-goldiam/core/types"
+	"github.com/GoldiamTech/go-goldiam/crypto"
+	"github.com/GoldiamTech/go-goldiam/eth/downloader"
+	"github.com/GoldiamTech/go-goldiam/p2p"
+	"github.com/GoldiamTech/go-goldiam/rlp"
 )
 
 func init() {

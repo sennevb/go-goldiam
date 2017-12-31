@@ -24,8 +24,8 @@ import (
 	"os"
 	"strings"
 
-	"github.com/go-goldiam/gol/accounts/abi/bind"
-	"github.com/go-goldiam/gol/common/compiler"
+	"github.com/GoldiamTech/go-goldiam/accounts/abi/bind"
+	"github.com/GoldiamTech/go-goldiam/common/compiler"
 )
 
 var (

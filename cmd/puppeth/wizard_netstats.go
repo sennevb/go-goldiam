@@ -22,8 +22,8 @@ import (
 	"os"
 	"strings"
 
-	"github.com/go-goldiam/gol/core"
-	"github.com/go-goldiam/gol/log"
+	"github.com/GoldiamTech/go-goldiam/core"
+	"github.com/GoldiamTech/go-goldiam/log"
 	"github.com/olekukonko/tablewriter"
 )
 

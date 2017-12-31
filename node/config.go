@@ -25,14 +25,14 @@ import (
 	"runtime"
 	"strings"
 
-	"github.com/go-goldiam/gol/accounts"
-	"github.com/go-goldiam/gol/accounts/keystore"
-	"github.com/go-goldiam/gol/accounts/usbwallet"
-	"github.com/go-goldiam/gol/common"
-	"github.com/go-goldiam/gol/crypto"
-	"github.com/go-goldiam/gol/log"
-	"github.com/go-goldiam/gol/p2p"
-	"github.com/go-goldiam/gol/p2p/discover"
+	"github.com/GoldiamTech/go-goldiam/accounts"
+	"github.com/GoldiamTech/go-goldiam/accounts/keystore"
+	"github.com/GoldiamTech/go-goldiam/accounts/usbwallet"
+	"github.com/GoldiamTech/go-goldiam/common"
+	"github.com/GoldiamTech/go-goldiam/crypto"
+	"github.com/GoldiamTech/go-goldiam/log"
+	"github.com/GoldiamTech/go-goldiam/p2p"
+	"github.com/GoldiamTech/go-goldiam/p2p/discover"
 )
 
 const (
@@ -210,7 +210,7 @@ func (c *Config) NodeName() string {
 	name := c.name()
 	// Backwards compatibility: previous versions used title-cased "Geth", keep that.
 	if name == "gol" || name == "gol-testnet" {
-		name = "gol"
+		name = "Goldiam"
 	}
 	if c.UserIdent != "" {
 		name += "/" + c.UserIdent

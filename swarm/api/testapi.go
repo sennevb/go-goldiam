@@ -17,7 +17,7 @@
 package api
 
 import (
-	"github.com/go-goldiam/gol/swarm/network"
+	"github.com/GoldiamTech/go-goldiam/swarm/network"
 )
 
 type Control struct {

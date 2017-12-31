@@ -22,10 +22,10 @@ import (
 	"sort"
 	"sync"
 
-	"github.com/go-goldiam/gol/common"
-	"github.com/go-goldiam/gol/internal/ethapi"
-	"github.com/go-goldiam/gol/params"
-	"github.com/go-goldiam/gol/rpc"
+	"github.com/GoldiamTech/go-goldiam/common"
+	"github.com/GoldiamTech/go-goldiam/internal/ethapi"
+	"github.com/GoldiamTech/go-goldiam/params"
+	"github.com/GoldiamTech/go-goldiam/rpc"
 )
 
 var maxPrice = big.NewInt(500 * params.Shannon)

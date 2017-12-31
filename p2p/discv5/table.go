@@ -29,7 +29,7 @@ import (
 	"net"
 	"sort"
 
-	"github.com/go-goldiam/gol/common"
+	"github.com/GoldiamTech/go-goldiam/common"
 )
 
 const (

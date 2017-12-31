@@ -20,9 +20,9 @@ import (
 	"fmt"
 	"sync"
 
-	"github.com/go-goldiam/gol/common"
-	"github.com/go-goldiam/gol/ethdb"
-	"github.com/go-goldiam/gol/trie"
+	"github.com/GoldiamTech/go-goldiam/common"
+	"github.com/GoldiamTech/go-goldiam/ethdb"
+	"github.com/GoldiamTech/go-goldiam/trie"
 	lru "github.com/hashicorp/golang-lru"
 )
 

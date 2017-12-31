@@ -22,14 +22,14 @@ import (
 	"fmt"
 	"testing"
 
+	"github.com/GoldiamTech/go-goldiam/consensus/ethash"
+	"github.com/GoldiamTech/go-goldiam/core"
+	"github.com/GoldiamTech/go-goldiam/core/state"
+	"github.com/GoldiamTech/go-goldiam/core/vm"
+	"github.com/GoldiamTech/go-goldiam/ethdb"
+	"github.com/GoldiamTech/go-goldiam/params"
+	"github.com/GoldiamTech/go-goldiam/trie"
 	"github.com/davecgh/go-spew/spew"
-	"github.com/go-goldiam/gol/consensus/ethash"
-	"github.com/go-goldiam/gol/core"
-	"github.com/go-goldiam/gol/core/state"
-	"github.com/go-goldiam/gol/core/vm"
-	"github.com/go-goldiam/gol/ethdb"
-	"github.com/go-goldiam/gol/params"
-	"github.com/go-goldiam/gol/trie"
 )
 
 func TestNodeIterator(t *testing.T) {

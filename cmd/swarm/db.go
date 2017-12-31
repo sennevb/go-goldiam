@@ -22,9 +22,9 @@ import (
 	"os"
 	"path/filepath"
 
-	"github.com/go-goldiam/gol/cmd/utils"
-	"github.com/go-goldiam/gol/log"
-	"github.com/go-goldiam/gol/swarm/storage"
+	"github.com/GoldiamTech/go-goldiam/cmd/utils"
+	"github.com/GoldiamTech/go-goldiam/log"
+	"github.com/GoldiamTech/go-goldiam/swarm/storage"
 	"gopkg.in/urfave/cli.v1"
 )
 

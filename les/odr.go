@@ -19,9 +19,9 @@ package les
 import (
 	"context"
 
-	"github.com/go-goldiam/gol/ethdb"
-	"github.com/go-goldiam/gol/light"
-	"github.com/go-goldiam/gol/log"
+	"github.com/GoldiamTech/go-goldiam/ethdb"
+	"github.com/GoldiamTech/go-goldiam/light"
+	"github.com/GoldiamTech/go-goldiam/log"
 )
 
 // LesOdr implements light.OdrBackend

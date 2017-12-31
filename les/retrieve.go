@@ -25,7 +25,7 @@ import (
 	"sync"
 	"time"
 
-	"github.com/go-goldiam/gol/common/mclock"
+	"github.com/GoldiamTech/go-goldiam/common/mclock"
 )
 
 var (

@@ -22,7 +22,7 @@ import (
 	"errors"
 	"math/big"
 
-	"github.com/go-goldiam/gol/common"
+	"github.com/GoldiamTech/go-goldiam/common"
 )
 
 // Interface represents a wrapped version of Go's interface{}, with the capacity

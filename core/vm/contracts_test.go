@@ -5,7 +5,7 @@ import (
 	"math/big"
 	"testing"
 
-	"github.com/go-goldiam/gol/common"
+	"github.com/GoldiamTech/go-goldiam/common"
 )
 
 // precompiledTest defines the input/output pairs for precompiled contract tests.

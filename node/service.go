@@ -19,11 +19,11 @@ package node
 import (
 	"reflect"
 
-	"github.com/go-goldiam/gol/accounts"
-	"github.com/go-goldiam/gol/ethdb"
-	"github.com/go-goldiam/gol/event"
-	"github.com/go-goldiam/gol/p2p"
-	"github.com/go-goldiam/gol/rpc"
+	"github.com/GoldiamTech/go-goldiam/accounts"
+	"github.com/GoldiamTech/go-goldiam/ethdb"
+	"github.com/GoldiamTech/go-goldiam/event"
+	"github.com/GoldiamTech/go-goldiam/p2p"
+	"github.com/GoldiamTech/go-goldiam/rpc"
 )
 
 // ServiceContext is a collection of service independent options inherited from

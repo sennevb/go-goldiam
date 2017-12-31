@@ -27,8 +27,8 @@ import (
 	"path/filepath"
 	"testing"
 
-	"github.com/go-goldiam/gol/swarm/api"
-	"github.com/go-goldiam/gol/swarm/storage"
+	"github.com/GoldiamTech/go-goldiam/swarm/api"
+	"github.com/GoldiamTech/go-goldiam/swarm/storage"
 )
 
 type fileInfo struct {

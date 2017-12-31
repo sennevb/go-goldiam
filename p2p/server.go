@@ -25,13 +25,13 @@ import (
 	"sync"
 	"time"
 
-	"github.com/go-goldiam/gol/common"
-	"github.com/go-goldiam/gol/common/mclock"
-	"github.com/go-goldiam/gol/log"
-	"github.com/go-goldiam/gol/p2p/discover"
-	"github.com/go-goldiam/gol/p2p/discv5"
-	"github.com/go-goldiam/gol/p2p/nat"
-	"github.com/go-goldiam/gol/p2p/netutil"
+	"github.com/GoldiamTech/go-goldiam/common"
+	"github.com/GoldiamTech/go-goldiam/common/mclock"
+	"github.com/GoldiamTech/go-goldiam/log"
+	"github.com/GoldiamTech/go-goldiam/p2p/discover"
+	"github.com/GoldiamTech/go-goldiam/p2p/discv5"
+	"github.com/GoldiamTech/go-goldiam/p2p/nat"
+	"github.com/GoldiamTech/go-goldiam/p2p/netutil"
 )
 
 const (

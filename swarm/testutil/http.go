@@ -22,9 +22,9 @@ import (
 	"os"
 	"testing"
 
-	"github.com/go-goldiam/gol/swarm/api"
-	httpapi "github.com/go-goldiam/gol/swarm/api/http"
-	"github.com/go-goldiam/gol/swarm/storage"
+	"github.com/GoldiamTech/go-goldiam/swarm/api"
+	httpapi "github.com/GoldiamTech/go-goldiam/swarm/api/http"
+	"github.com/GoldiamTech/go-goldiam/swarm/storage"
 )
 
 func NewTestSwarmServer(t *testing.T) *TestSwarmServer {

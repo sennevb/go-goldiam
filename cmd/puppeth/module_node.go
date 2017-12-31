@@ -25,7 +25,7 @@ import (
 	"strings"
 	"text/template"
 
-	"github.com/go-goldiam/gol/log"
+	"github.com/GoldiamTech/go-goldiam/log"
 )
 
 // nodeDockerfile is the Dockerfile required to run an Ethereum node.

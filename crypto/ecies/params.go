@@ -42,7 +42,7 @@ import (
 	"fmt"
 	"hash"
 
-	ethcrypto "github.com/go-goldiam/gol/crypto"
+	ethcrypto "github.com/GoldiamTech/go-goldiam/crypto"
 )
 
 var (

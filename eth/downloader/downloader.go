@@ -27,13 +27,13 @@ import (
 	"sync/atomic"
 	"time"
 
-	ethereum "github.com/go-goldiam/gol"
-	"github.com/go-goldiam/gol/common"
-	"github.com/go-goldiam/gol/core/types"
-	"github.com/go-goldiam/gol/ethdb"
-	"github.com/go-goldiam/gol/event"
-	"github.com/go-goldiam/gol/log"
-	"github.com/go-goldiam/gol/params"
+	ethereum "github.com/GoldiamTech/go-goldiam"
+	"github.com/GoldiamTech/go-goldiam/common"
+	"github.com/GoldiamTech/go-goldiam/core/types"
+	"github.com/GoldiamTech/go-goldiam/ethdb"
+	"github.com/GoldiamTech/go-goldiam/event"
+	"github.com/GoldiamTech/go-goldiam/log"
+	"github.com/GoldiamTech/go-goldiam/params"
 	"github.com/rcrowley/go-metrics"
 )
 

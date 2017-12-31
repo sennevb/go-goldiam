@@ -26,11 +26,11 @@ import (
 	"time"
 	"unsafe"
 
-	"github.com/go-goldiam/gol/common"
-	"github.com/go-goldiam/gol/common/bitutil"
-	"github.com/go-goldiam/gol/crypto"
-	"github.com/go-goldiam/gol/crypto/sha3"
-	"github.com/go-goldiam/gol/log"
+	"github.com/GoldiamTech/go-goldiam/common"
+	"github.com/GoldiamTech/go-goldiam/common/bitutil"
+	"github.com/GoldiamTech/go-goldiam/crypto"
+	"github.com/GoldiamTech/go-goldiam/crypto/sha3"
+	"github.com/GoldiamTech/go-goldiam/log"
 )
 
 const (

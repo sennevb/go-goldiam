@@ -23,11 +23,11 @@ import (
 	"sync/atomic"
 	"time"
 
-	"github.com/go-goldiam/gol/common"
-	"github.com/go-goldiam/gol/core/state"
-	"github.com/go-goldiam/gol/crypto/sha3"
-	"github.com/go-goldiam/gol/log"
-	"github.com/go-goldiam/gol/trie"
+	"github.com/GoldiamTech/go-goldiam/common"
+	"github.com/GoldiamTech/go-goldiam/core/state"
+	"github.com/GoldiamTech/go-goldiam/crypto/sha3"
+	"github.com/GoldiamTech/go-goldiam/log"
+	"github.com/GoldiamTech/go-goldiam/trie"
 )
 
 // stateReq represents a batch of state fetch requests groupped together into

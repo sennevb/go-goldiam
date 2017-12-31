@@ -23,8 +23,8 @@ import (
 	"testing"
 	"time"
 
-	"github.com/go-goldiam/gol/core/types"
-	"github.com/go-goldiam/gol/ethdb"
+	"github.com/GoldiamTech/go-goldiam/core/types"
+	"github.com/GoldiamTech/go-goldiam/ethdb"
 )
 
 // Runs multiple tests with randomized parameters.

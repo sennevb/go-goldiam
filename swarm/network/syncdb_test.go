@@ -25,9 +25,9 @@ import (
 	"testing"
 	"time"
 
-	"github.com/go-goldiam/gol/crypto"
-	"github.com/go-goldiam/gol/log"
-	"github.com/go-goldiam/gol/swarm/storage"
+	"github.com/GoldiamTech/go-goldiam/crypto"
+	"github.com/GoldiamTech/go-goldiam/log"
+	"github.com/GoldiamTech/go-goldiam/swarm/storage"
 )
 
 func init() {

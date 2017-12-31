@@ -21,7 +21,7 @@ import (
 	"reflect"
 	"testing"
 
-	"github.com/go-goldiam/gol/common"
+	"github.com/GoldiamTech/go-goldiam/common"
 )
 
 func (Address) Generate(rand *rand.Rand, size int) reflect.Value {

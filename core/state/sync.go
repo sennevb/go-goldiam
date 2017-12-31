@@ -20,9 +20,9 @@ import (
 	"bytes"
 	"math/big"
 
-	"github.com/go-goldiam/gol/common"
-	"github.com/go-goldiam/gol/rlp"
-	"github.com/go-goldiam/gol/trie"
+	"github.com/GoldiamTech/go-goldiam/common"
+	"github.com/GoldiamTech/go-goldiam/rlp"
+	"github.com/GoldiamTech/go-goldiam/trie"
 )
 
 // StateSync is the main state synchronisation scheduler, which provides yet the

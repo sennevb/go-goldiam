@@ -19,7 +19,7 @@ package downloader
 import (
 	"fmt"
 
-	"github.com/go-goldiam/gol/core/types"
+	"github.com/GoldiamTech/go-goldiam/core/types"
 )
 
 // peerDropFn is a callback type for dropping a peer detected as malicious.

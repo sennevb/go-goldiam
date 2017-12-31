@@ -1,8 +1,8 @@
-## gol
+## Goldiam
   * Time between block: 13 sec
-  * total block reward : 12 gol
-  * Miner reward : 10 gol / block
-  * Masternode / dev : 2  gol / block
+  * total block reward : 12 PIRL
+  * Miner reward : 10 PIRL / block
+  * Masternode / dev : 2  PIRL / block
   * Network ID : 3125659152
   * rpc port : 6588
   * Explorer: https://explorer.gol.io
@@ -46,7 +46,7 @@ You can also find compiled bin in release.
 ## Systemd start:
 ```
 [Unit]
-Description=gol
+Description=Goldiam
 
 [Service]
 Type=simple
@@ -59,9 +59,9 @@ WantedBy=default.target
 
 
 
-## Go gol
+## Go Goldiam
 
-Official golang implementation of the gol protocol.
+Official golang implementation of the Goldiam protocol.
 
 
 Automated builds are available for stable releases and the unstable master branch.
@@ -84,25 +84,25 @@ The gol project comes with several wrappers/executables found in the `cmd` direc
 
 | Command    | Description |
 |:----------:|-------------|
-| **`gol`** | Our main gol CLI client. It is the entry point into the gol network (main-, test- or private net), capable of running as a full node (default) archive node (retaining all historical state) or a light node (retrieving data live). It can be used by other processes as a gateway into the gol network via JSON RPC endpoints exposed on top of HTTP, WebSocket and/or IPC transports. `gol --help` and the [CLI Wiki page](https://github.com/go-goldiam/gol/wiki/Command-Line-Options) for command line options. |
-| `abigen` | Source code generator to convert gol contract definitions into easy to use, compile-time type-safe Go packages. It operates on plain [gol contract ABIs](https://github.com/go-goldiam/wiki/wiki/gol-Contract-ABI) with expanded functionality if the contract bytecode is also available. However it also accepts Solidity source files, making development much more streamlined. Please see our [Native DApps](https://github.com/go-goldiam/gol/wiki/Native-DApps:-Go-bindings-to-gol-contracts) wiki page for details. |
+| **`gol`** | Our main gol CLI client. It is the entry point into the gol network (main-, test- or private net), capable of running as a full node (default) archive node (retaining all historical state) or a light node (retrieving data live). It can be used by other processes as a gateway into the gol network via JSON RPC endpoints exposed on top of HTTP, WebSocket and/or IPC transports. `gol --help` and the [CLI Wiki page](https://github.com/GoldiamTech/go-goldiam/wiki/Command-Line-Options) for command line options. |
+| `abigen` | Source code generator to convert gol contract definitions into easy to use, compile-time type-safe Go packages. It operates on plain [gol contract ABIs](https://github.com/gol/wiki/wiki/gol-Contract-ABI) with expanded functionality if the contract bytecode is also available. However it also accepts Solidity source files, making development much more streamlined. Please see our [Native DApps](https://github.com/GoldiamTech/go-goldiam/wiki/Native-DApps:-Go-bindings-to-gol-contracts) wiki page for details. |
 | `bootnode` | Stripped down version of our gol client implementation that only takes part in the network node discovery protocol, but does not run any of the higher level application protocols. It can be used as a lightweight bootstrap node to aid in finding peers in private networks. |
 | `evm` | Developer utility version of the EVM (gol Virtual Machine) that is capable of running bytecode snippets within a configurable environment and execution mode. Its purpose is to allow insolated, fine-grained debugging of EVM opcodes (e.g. `evm --code 60ff60ff --debug`). |
-| `golrpctest` | Developer utility tool to support our [gol/rpc-test](https://github.com/go-goldiam/rpc-tests) test suite which validates baseline conformity to the [gol JSON RPC](https://github.com/go-goldiam/wiki/wiki/JSON-RPC) specs. Please see the [test suite's readme](https://github.com/go-goldiam/rpc-tests/blob/master/README.md) for details. |
-| `rlpdump` | Developer utility tool to convert binary RLP ([Recursive Length Prefix](https://github.com/go-goldiam/wiki/wiki/RLP)) dumps (data encoding used by the gol protocol both network as well as consensus wise) to user friendlier hierarchical representation (e.g. `rlpdump --hex CE0183FFFFFFC4C304050583616263`). |
+| `golrpctest` | Developer utility tool to support our [gol/rpc-test](https://github.com/gol/rpc-tests) test suite which validates baseline conformity to the [gol JSON RPC](https://github.com/gol/wiki/wiki/JSON-RPC) specs. Please see the [test suite's readme](https://github.com/gol/rpc-tests/blob/master/README.md) for details. |
+| `rlpdump` | Developer utility tool to convert binary RLP ([Recursive Length Prefix](https://github.com/gol/wiki/wiki/RLP)) dumps (data encoding used by the gol protocol both network as well as consensus wise) to user friendlier hierarchical representation (e.g. `rlpdump --hex CE0183FFFFFFC4C304050583616263`). |
 | `swarm`    | swarm daemon and tools. This is the entrypoint for the swarm network. `swarm --help` for command line options and subcommands. See https://swarm-guide.readthedocs.io for swarm documentation. |
 | `puppeth`    | a CLI wizard that aids in creating a new gol network. |
 
 ## Running gol
 
 Going through all the possible command line flags is out of scope here (please consult our
-[CLI Wiki page](https://github.com/go-goldiam/gol/wiki/Command-Line-Options)), but we've
+[CLI Wiki page](https://github.com/GoldiamTech/go-goldiam/wiki/Command-Line-Options)), but we've
 enumerated a few common parameter combos to get you up to speed quickly on how you can run your
 own gol instance.
 
-### Full node on the main gol network
+### Full node on the main Goldiam network
 
-By far the most common scenario is people wanting to simply interact with the gol network:
+By far the most common scenario is people wanting to simply interact with the Goldiam network:
 create accounts; transfer funds; deploy and interact with contracts. For this particular use-case
 the user doesn't care about years-old historical data, so we can fast-sync quickly to the current
 state of the network. To do so:
@@ -118,9 +118,9 @@ This command will:
  * Bump the memory allowance of the database to 512MB (`--cache=512`), which can help significantly in
    sync times especially for HDD users. This flag is optional and you can set it as high or as low as
    you'd like, though we'd recommend the 512MB - 2GB range.
- * Start up gol's built-in interactive [JavaScript console](https://github.com/go-goldiam/gol/wiki/JavaScript-Console),
-   (via the trailing `console` subcommand) through which you can invoke all official [`web3` methods](https://github.com/go-goldiam/wiki/wiki/JavaScript-API)
-   as well as gol's own [management APIs](https://github.com/go-goldiam/gol/wiki/Management-APIs).
+ * Start up gol's built-in interactive [JavaScript console](https://github.com/GoldiamTech/go-goldiam/wiki/JavaScript-Console),
+   (via the trailing `console` subcommand) through which you can invoke all official [`web3` methods](https://github.com/gol/wiki/wiki/JavaScript-API)
+   as well as gol's own [management APIs](https://github.com/GoldiamTech/go-goldiam/wiki/Management-APIs).
    This too is optional and if you leave it out you can always attach to an already running gol instance
    with `gol attach`.
 
@@ -153,8 +153,8 @@ This will start gol in fast sync mode with a DB memory allowance of 512MB just a
 
 As a developer, sooner rather than later you'll want to start interacting with gol and the gol
 network via your own programs and not manually through the console. To aid this, gol has built in
-support for a JSON-RPC based APIs ([standard APIs](https://github.com/go-goldiam/wiki/wiki/JSON-RPC) and
-[gol specific APIs](https://github.com/go-goldiam/gol/wiki/Management-APIs)). These can be
+support for a JSON-RPC based APIs ([standard APIs](https://github.com/gol/wiki/wiki/JSON-RPC) and
+[gol specific APIs](https://github.com/GoldiamTech/go-goldiam/wiki/Management-APIs)). These can be
 exposed via HTTP, WebSockets and IPC (unix sockets on unix based platforms, and named pipes on Windows).
 
 The IPC interface is enabled by default and exposes all the APIs supported by gol, whereas the HTTP

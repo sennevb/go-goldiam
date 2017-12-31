@@ -23,13 +23,13 @@ import (
 	"fmt"
 	"os"
 
-	"github.com/go-goldiam/gol/cmd/utils"
-	"github.com/go-goldiam/gol/crypto"
-	"github.com/go-goldiam/gol/log"
-	"github.com/go-goldiam/gol/p2p/discover"
-	"github.com/go-goldiam/gol/p2p/discv5"
-	"github.com/go-goldiam/gol/p2p/nat"
-	"github.com/go-goldiam/gol/p2p/netutil"
+	"github.com/GoldiamTech/go-goldiam/cmd/utils"
+	"github.com/GoldiamTech/go-goldiam/crypto"
+	"github.com/GoldiamTech/go-goldiam/log"
+	"github.com/GoldiamTech/go-goldiam/p2p/discover"
+	"github.com/GoldiamTech/go-goldiam/p2p/discv5"
+	"github.com/GoldiamTech/go-goldiam/p2p/nat"
+	"github.com/GoldiamTech/go-goldiam/p2p/netutil"
 )
 
 func main() {

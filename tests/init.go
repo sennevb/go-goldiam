@@ -20,7 +20,7 @@ import (
 	"fmt"
 	"math/big"
 
-	"github.com/go-goldiam/gol/params"
+	"github.com/GoldiamTech/go-goldiam/params"
 )
 
 // This table defines supported forks and their chain config.

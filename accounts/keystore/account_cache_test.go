@@ -26,10 +26,10 @@ import (
 	"testing"
 	"time"
 
+	"github.com/GoldiamTech/go-goldiam/accounts"
+	"github.com/GoldiamTech/go-goldiam/common"
 	"github.com/cespare/cp"
 	"github.com/davecgh/go-spew/spew"
-	"github.com/go-goldiam/gol/accounts"
-	"github.com/go-goldiam/gol/common"
 )
 
 var (

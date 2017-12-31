@@ -25,7 +25,7 @@ import (
 	"sort"
 	"time"
 
-	"github.com/go-goldiam/gol/log"
+	"github.com/GoldiamTech/go-goldiam/log"
 )
 
 const (

@@ -24,13 +24,13 @@ import (
 	"sync"
 	"time"
 
-	"github.com/go-goldiam/gol/common"
-	"github.com/go-goldiam/gol/core/state"
-	"github.com/go-goldiam/gol/core/types"
-	"github.com/go-goldiam/gol/event"
-	"github.com/go-goldiam/gol/log"
-	"github.com/go-goldiam/gol/metrics"
-	"github.com/go-goldiam/gol/params"
+	"github.com/GoldiamTech/go-goldiam/common"
+	"github.com/GoldiamTech/go-goldiam/core/state"
+	"github.com/GoldiamTech/go-goldiam/core/types"
+	"github.com/GoldiamTech/go-goldiam/event"
+	"github.com/GoldiamTech/go-goldiam/log"
+	"github.com/GoldiamTech/go-goldiam/metrics"
+	"github.com/GoldiamTech/go-goldiam/params"
 	"gopkg.in/karalabe/cookiejar.v2/collections/prque"
 )
 

@@ -25,11 +25,11 @@ import (
 	"testing"
 	"time"
 
-	"github.com/go-goldiam/gol/common"
-	"github.com/go-goldiam/gol/crypto"
-	"github.com/go-goldiam/gol/p2p"
-	"github.com/go-goldiam/gol/p2p/discover"
-	"github.com/go-goldiam/gol/p2p/nat"
+	"github.com/GoldiamTech/go-goldiam/common"
+	"github.com/GoldiamTech/go-goldiam/crypto"
+	"github.com/GoldiamTech/go-goldiam/p2p"
+	"github.com/GoldiamTech/go-goldiam/p2p/discover"
+	"github.com/GoldiamTech/go-goldiam/p2p/nat"
 )
 
 var keys []string = []string{

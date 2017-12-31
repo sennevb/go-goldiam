@@ -21,7 +21,7 @@ import (
 	"fmt"
 	"net"
 
-	"github.com/go-goldiam/gol/log"
+	"github.com/GoldiamTech/go-goldiam/log"
 )
 
 // CreateIPCListener creates an listener, on Unix platforms this is a unix socket, on

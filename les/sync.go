@@ -20,9 +20,9 @@ import (
 	"context"
 	"time"
 
-	"github.com/go-goldiam/gol/core"
-	"github.com/go-goldiam/gol/eth/downloader"
-	"github.com/go-goldiam/gol/light"
+	"github.com/GoldiamTech/go-goldiam/core"
+	"github.com/GoldiamTech/go-goldiam/eth/downloader"
+	"github.com/GoldiamTech/go-goldiam/light"
 )
 
 const (

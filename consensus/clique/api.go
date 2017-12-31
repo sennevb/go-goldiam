@@ -17,10 +17,10 @@
 package clique
 
 import (
-	"github.com/go-goldiam/gol/common"
-	"github.com/go-goldiam/gol/consensus"
-	"github.com/go-goldiam/gol/core/types"
-	"github.com/go-goldiam/gol/rpc"
+	"github.com/GoldiamTech/go-goldiam/common"
+	"github.com/GoldiamTech/go-goldiam/consensus"
+	"github.com/GoldiamTech/go-goldiam/core/types"
+	"github.com/GoldiamTech/go-goldiam/rpc"
 )
 
 // API is a user facing RPC API to allow controlling the signer and voting

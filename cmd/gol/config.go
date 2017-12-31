@@ -28,12 +28,12 @@ import (
 
 	cli "gopkg.in/urfave/cli.v1"
 
-	"github.com/go-goldiam/gol/cmd/utils"
-	"github.com/go-goldiam/gol/contracts/release"
-	"github.com/go-goldiam/gol/eth"
-	"github.com/go-goldiam/gol/node"
-	"github.com/go-goldiam/gol/params"
-	whisper "github.com/go-goldiam/gol/whisper/whisperv5"
+	"github.com/GoldiamTech/go-goldiam/cmd/utils"
+	"github.com/GoldiamTech/go-goldiam/contracts/release"
+	"github.com/GoldiamTech/go-goldiam/eth"
+	"github.com/GoldiamTech/go-goldiam/node"
+	"github.com/GoldiamTech/go-goldiam/params"
+	whisper "github.com/GoldiamTech/go-goldiam/whisper/whisperv5"
 	"github.com/naoina/toml"
 )
 

@@ -33,7 +33,7 @@ import (
 	"sync"
 	"time"
 
-	"github.com/go-goldiam/gol/log"
+	"github.com/GoldiamTech/go-goldiam/log"
 )
 
 // Handler is the global debugging handler.

@@ -31,10 +31,10 @@ import (
 	"time"
 	"unsafe"
 
+	"github.com/GoldiamTech/go-goldiam/consensus"
+	"github.com/GoldiamTech/go-goldiam/log"
+	"github.com/GoldiamTech/go-goldiam/rpc"
 	mmap "github.com/edsrzf/mmap-go"
-	"github.com/go-goldiam/gol/consensus"
-	"github.com/go-goldiam/gol/log"
-	"github.com/go-goldiam/gol/rpc"
 	metrics "github.com/rcrowley/go-metrics"
 )
 

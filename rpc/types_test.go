@@ -20,7 +20,7 @@ import (
 	"encoding/json"
 	"testing"
 
-	"github.com/go-goldiam/gol/common/math"
+	"github.com/GoldiamTech/go-goldiam/common/math"
 )
 
 func TestBlockNumberJSONUnmarshal(t *testing.T) {

@@ -6,10 +6,10 @@ package contract
 import (
 	"strings"
 
-	"github.com/go-goldiam/gol/accounts/abi"
-	"github.com/go-goldiam/gol/accounts/abi/bind"
-	"github.com/go-goldiam/gol/common"
-	"github.com/go-goldiam/gol/core/types"
+	"github.com/GoldiamTech/go-goldiam/accounts/abi"
+	"github.com/GoldiamTech/go-goldiam/accounts/abi/bind"
+	"github.com/GoldiamTech/go-goldiam/common"
+	"github.com/GoldiamTech/go-goldiam/core/types"
 )
 
 // ENSABI is the input ABI used to generate the binding from.

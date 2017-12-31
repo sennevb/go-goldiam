@@ -19,10 +19,10 @@ package core
 import (
 	"math/big"
 
-	"github.com/go-goldiam/gol/common"
-	"github.com/go-goldiam/gol/consensus"
-	"github.com/go-goldiam/gol/core/types"
-	"github.com/go-goldiam/gol/core/vm"
+	"github.com/GoldiamTech/go-goldiam/common"
+	"github.com/GoldiamTech/go-goldiam/consensus"
+	"github.com/GoldiamTech/go-goldiam/core/types"
+	"github.com/GoldiamTech/go-goldiam/core/vm"
 )
 
 // ChainContext supports retrieving headers and consensus parameters from the

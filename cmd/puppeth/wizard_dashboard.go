@@ -19,7 +19,7 @@ package main
 import (
 	"fmt"
 
-	"github.com/go-goldiam/gol/log"
+	"github.com/GoldiamTech/go-goldiam/log"
 )
 
 // deployDashboard queries the user for various input on deploying a web-service

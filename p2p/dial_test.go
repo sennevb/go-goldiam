@@ -23,9 +23,9 @@ import (
 	"testing"
 	"time"
 
+	"github.com/GoldiamTech/go-goldiam/p2p/discover"
+	"github.com/GoldiamTech/go-goldiam/p2p/netutil"
 	"github.com/davecgh/go-spew/spew"
-	"github.com/go-goldiam/gol/p2p/discover"
-	"github.com/go-goldiam/gol/p2p/netutil"
 )
 
 func init() {

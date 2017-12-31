@@ -24,14 +24,14 @@ import (
 	"net"
 	"time"
 
-	"github.com/go-goldiam/gol/common"
-	"github.com/go-goldiam/gol/common/mclock"
-	"github.com/go-goldiam/gol/crypto"
-	"github.com/go-goldiam/gol/crypto/sha3"
-	"github.com/go-goldiam/gol/log"
-	"github.com/go-goldiam/gol/p2p/nat"
-	"github.com/go-goldiam/gol/p2p/netutil"
-	"github.com/go-goldiam/gol/rlp"
+	"github.com/GoldiamTech/go-goldiam/common"
+	"github.com/GoldiamTech/go-goldiam/common/mclock"
+	"github.com/GoldiamTech/go-goldiam/crypto"
+	"github.com/GoldiamTech/go-goldiam/crypto/sha3"
+	"github.com/GoldiamTech/go-goldiam/log"
+	"github.com/GoldiamTech/go-goldiam/p2p/nat"
+	"github.com/GoldiamTech/go-goldiam/p2p/netutil"
+	"github.com/GoldiamTech/go-goldiam/rlp"
 )
 
 var (

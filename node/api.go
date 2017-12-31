@@ -21,10 +21,10 @@ import (
 	"strings"
 	"time"
 
-	"github.com/go-goldiam/gol/common/hexutil"
-	"github.com/go-goldiam/gol/crypto"
-	"github.com/go-goldiam/gol/p2p"
-	"github.com/go-goldiam/gol/p2p/discover"
+	"github.com/GoldiamTech/go-goldiam/common/hexutil"
+	"github.com/GoldiamTech/go-goldiam/crypto"
+	"github.com/GoldiamTech/go-goldiam/p2p"
+	"github.com/GoldiamTech/go-goldiam/p2p/discover"
 	"github.com/rcrowley/go-metrics"
 )
 

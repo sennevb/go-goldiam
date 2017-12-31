@@ -24,9 +24,9 @@ import (
 	"path/filepath"
 	"strings"
 
-	"github.com/go-goldiam/gol/cmd/utils"
-	"github.com/go-goldiam/gol/swarm/api"
-	swarm "github.com/go-goldiam/gol/swarm/api/client"
+	"github.com/GoldiamTech/go-goldiam/cmd/utils"
+	"github.com/GoldiamTech/go-goldiam/swarm/api"
+	swarm "github.com/GoldiamTech/go-goldiam/swarm/api/client"
 	"gopkg.in/urfave/cli.v1"
 )
 

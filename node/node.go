@@ -27,13 +27,13 @@ import (
 	"sync"
 	"syscall"
 
-	"github.com/go-goldiam/gol/accounts"
-	"github.com/go-goldiam/gol/ethdb"
-	"github.com/go-goldiam/gol/event"
-	"github.com/go-goldiam/gol/internal/debug"
-	"github.com/go-goldiam/gol/log"
-	"github.com/go-goldiam/gol/p2p"
-	"github.com/go-goldiam/gol/rpc"
+	"github.com/GoldiamTech/go-goldiam/accounts"
+	"github.com/GoldiamTech/go-goldiam/ethdb"
+	"github.com/GoldiamTech/go-goldiam/event"
+	"github.com/GoldiamTech/go-goldiam/internal/debug"
+	"github.com/GoldiamTech/go-goldiam/log"
+	"github.com/GoldiamTech/go-goldiam/p2p"
+	"github.com/GoldiamTech/go-goldiam/rpc"
 	"github.com/syndtr/goleveldb/leveldb/storage"
 )
 

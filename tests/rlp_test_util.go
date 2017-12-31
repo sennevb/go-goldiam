@@ -24,7 +24,7 @@ import (
 	"math/big"
 	"strings"
 
-	"github.com/go-goldiam/gol/rlp"
+	"github.com/GoldiamTech/go-goldiam/rlp"
 )
 
 // RLPTest is the JSON structure of a single RLP test.

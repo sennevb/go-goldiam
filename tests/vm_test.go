@@ -19,7 +19,7 @@ package tests
 import (
 	"testing"
 
-	"github.com/go-goldiam/gol/core/vm"
+	"github.com/GoldiamTech/go-goldiam/core/vm"
 )
 
 func TestVM(t *testing.T) {

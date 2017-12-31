@@ -25,11 +25,11 @@ import (
 	"sync"
 	"testing"
 
-	"github.com/go-goldiam/gol/common"
-	"github.com/go-goldiam/gol/swarm/api"
-	swarm "github.com/go-goldiam/gol/swarm/api/client"
-	"github.com/go-goldiam/gol/swarm/storage"
-	"github.com/go-goldiam/gol/swarm/testutil"
+	"github.com/GoldiamTech/go-goldiam/common"
+	"github.com/GoldiamTech/go-goldiam/swarm/api"
+	swarm "github.com/GoldiamTech/go-goldiam/swarm/api/client"
+	"github.com/GoldiamTech/go-goldiam/swarm/storage"
+	"github.com/GoldiamTech/go-goldiam/swarm/testutil"
 )
 
 func TestBzzrGetPath(t *testing.T) {

@@ -24,12 +24,12 @@ import (
 	"os"
 	"path/filepath"
 
-	"github.com/go-goldiam/gol/common"
-	"github.com/go-goldiam/gol/contracts/ens"
-	"github.com/go-goldiam/gol/crypto"
-	"github.com/go-goldiam/gol/swarm/network"
-	"github.com/go-goldiam/gol/swarm/services/swap"
-	"github.com/go-goldiam/gol/swarm/storage"
+	"github.com/GoldiamTech/go-goldiam/common"
+	"github.com/GoldiamTech/go-goldiam/contracts/ens"
+	"github.com/GoldiamTech/go-goldiam/crypto"
+	"github.com/GoldiamTech/go-goldiam/swarm/network"
+	"github.com/GoldiamTech/go-goldiam/swarm/services/swap"
+	"github.com/GoldiamTech/go-goldiam/swarm/storage"
 )
 
 const (

@@ -26,10 +26,10 @@ import (
 	"testing"
 	"time"
 
+	"github.com/GoldiamTech/go-goldiam/common"
+	"github.com/GoldiamTech/go-goldiam/crypto"
+	"github.com/GoldiamTech/go-goldiam/rlp"
 	"github.com/davecgh/go-spew/spew"
-	"github.com/go-goldiam/gol/common"
-	"github.com/go-goldiam/gol/crypto"
-	"github.com/go-goldiam/gol/rlp"
 )
 
 func init() {

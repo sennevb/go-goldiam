@@ -26,10 +26,10 @@ import (
 	"runtime"
 	"strings"
 
-	"github.com/go-goldiam/gol/cmd/internal/browser"
-	"github.com/go-goldiam/gol/params"
+	"github.com/GoldiamTech/go-goldiam/cmd/internal/browser"
+	"github.com/GoldiamTech/go-goldiam/params"
 
-	"github.com/go-goldiam/gol/cmd/utils"
+	"github.com/GoldiamTech/go-goldiam/cmd/utils"
 	cli "gopkg.in/urfave/cli.v1"
 )
 
@@ -41,7 +41,7 @@ var bugCommand = cli.Command{
 	Category:  "MISCELLANEOUS COMMANDS",
 }
 
-const issueUrl = "https://github.com/go-goldiam/gol/issues/new"
+const issueUrl = "https://github.com/GoldiamTech/go-goldiam/issues/new"
 
 // reportBug reports a bug by opening a new URL to the go-ethereum GH issue
 // tracker and setting default values as the issue body.

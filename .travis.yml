@@ -1,5 +1,5 @@
 language: go
-go_import_path: github.com/go-goldiam/gol
+go_import_path: github.com/GoldiamTech/go-goldiam
 sudo: false
 matrix:
   include:

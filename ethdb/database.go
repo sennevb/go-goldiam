@@ -22,8 +22,8 @@ import (
 	"sync"
 	"time"
 
-	"github.com/go-goldiam/gol/log"
-	"github.com/go-goldiam/gol/metrics"
+	"github.com/GoldiamTech/go-goldiam/log"
+	"github.com/GoldiamTech/go-goldiam/metrics"
 	"github.com/syndtr/goleveldb/leveldb"
 	"github.com/syndtr/goleveldb/leveldb/errors"
 	"github.com/syndtr/goleveldb/leveldb/filter"

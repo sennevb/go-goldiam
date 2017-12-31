@@ -21,10 +21,10 @@ import (
 	"os/signal"
 	"strings"
 
-	"github.com/go-goldiam/gol/cmd/utils"
-	"github.com/go-goldiam/gol/console"
-	"github.com/go-goldiam/gol/node"
-	"github.com/go-goldiam/gol/rpc"
+	"github.com/GoldiamTech/go-goldiam/cmd/utils"
+	"github.com/GoldiamTech/go-goldiam/console"
+	"github.com/GoldiamTech/go-goldiam/node"
+	"github.com/GoldiamTech/go-goldiam/rpc"
 	"gopkg.in/urfave/cli.v1"
 )
 
@@ -40,7 +40,7 @@ var (
 		Description: `
 The Geth console is an interactive shell for the JavaScript runtime environment
 which exposes a node admin interface as well as the Ðapp JavaScript API.
-See https://github.com/go-goldiam/gol/wiki/Javascipt-Console.`,
+See https://github.com/GoldiamTech/go-goldiam/wiki/Javascipt-Console.`,
 	}
 
 	attachCommand = cli.Command{
@@ -53,7 +53,7 @@ See https://github.com/go-goldiam/gol/wiki/Javascipt-Console.`,
 		Description: `
 The Geth console is an interactive shell for the JavaScript runtime environment
 which exposes a node admin interface as well as the Ðapp JavaScript API.
-See https://github.com/go-goldiam/gol/wiki/Javascipt-Console.
+See https://github.com/GoldiamTech/go-goldiam/wiki/Javascipt-Console.
 This command allows to open a console on a running geth node.`,
 	}
 
@@ -66,7 +66,7 @@ This command allows to open a console on a running geth node.`,
 		Category:  "CONSOLE COMMANDS",
 		Description: `
 The JavaScript VM exposes a node admin interface as well as the Ðapp
-JavaScript API. See https://github.com/go-goldiam/gol/wiki/Javascipt-Console`,
+JavaScript API. See https://github.com/GoldiamTech/go-goldiam/wiki/Javascipt-Console`,
 	}
 )
 

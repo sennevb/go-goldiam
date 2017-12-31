@@ -22,8 +22,8 @@ import (
 	"errors"
 	"math/big"
 
-	"github.com/go-goldiam/gol/common"
-	"github.com/go-goldiam/gol/core/types"
+	"github.com/GoldiamTech/go-goldiam/common"
+	"github.com/GoldiamTech/go-goldiam/core/types"
 )
 
 // NotFound is returned by API methods if the requested item does not exist.

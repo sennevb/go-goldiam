@@ -24,8 +24,8 @@ import (
 	"encoding/hex"
 	"testing"
 
-	"github.com/go-goldiam/gol/common/math"
-	"github.com/go-goldiam/gol/crypto/randentropy"
+	"github.com/GoldiamTech/go-goldiam/common/math"
+	"github.com/GoldiamTech/go-goldiam/crypto/randentropy"
 )
 
 const TestCount = 1000

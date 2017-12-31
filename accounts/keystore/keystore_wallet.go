@@ -19,9 +19,9 @@ package keystore
 import (
 	"math/big"
 
-	ethereum "github.com/go-goldiam/gol"
-	"github.com/go-goldiam/gol/accounts"
-	"github.com/go-goldiam/gol/core/types"
+	ethereum "github.com/GoldiamTech/go-goldiam"
+	"github.com/GoldiamTech/go-goldiam/accounts"
+	"github.com/GoldiamTech/go-goldiam/core/types"
 )
 
 // keystoreWallet implements the accounts.Wallet interface for the original

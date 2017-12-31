@@ -25,8 +25,8 @@ import (
 	"sort"
 	"testing"
 
-	"github.com/go-goldiam/gol/swarm/api"
-	"github.com/go-goldiam/gol/swarm/testutil"
+	"github.com/GoldiamTech/go-goldiam/swarm/api"
+	"github.com/GoldiamTech/go-goldiam/swarm/testutil"
 )
 
 // TestClientUploadDownloadRaw test uploading and downloading raw data to swarm

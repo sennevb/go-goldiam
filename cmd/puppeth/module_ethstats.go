@@ -24,7 +24,7 @@ import (
 	"strings"
 	"text/template"
 
-	"github.com/go-goldiam/gol/log"
+	"github.com/GoldiamTech/go-goldiam/log"
 )
 
 // ethstatsDockerfile is the Dockerfile required to build an ethstats backend

@@ -21,7 +21,7 @@ import (
 	"sort"
 	"sync"
 
-	"github.com/go-goldiam/gol/event"
+	"github.com/GoldiamTech/go-goldiam/event"
 )
 
 // Manager is an overarching account manager that can communicate with various

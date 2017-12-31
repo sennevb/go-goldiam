@@ -22,7 +22,7 @@ import (
 	"sync"
 	"time"
 
-	"github.com/go-goldiam/gol/log"
+	"github.com/GoldiamTech/go-goldiam/log"
 )
 
 // SwAP Swarm Accounting Protocol with

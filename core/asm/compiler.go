@@ -23,8 +23,8 @@ import (
 	"os"
 	"strings"
 
-	"github.com/go-goldiam/gol/common/math"
-	"github.com/go-goldiam/gol/core/vm"
+	"github.com/GoldiamTech/go-goldiam/common/math"
+	"github.com/GoldiamTech/go-goldiam/core/vm"
 )
 
 // Compiler contains information about the parsed source

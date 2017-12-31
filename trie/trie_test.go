@@ -28,9 +28,9 @@ import (
 	"testing"
 	"testing/quick"
 
+	"github.com/GoldiamTech/go-goldiam/common"
+	"github.com/GoldiamTech/go-goldiam/ethdb"
 	"github.com/davecgh/go-spew/spew"
-	"github.com/go-goldiam/gol/common"
-	"github.com/go-goldiam/gol/ethdb"
 )
 
 func init() {

@@ -25,15 +25,15 @@ import (
 	"strings"
 	"time"
 
-	"github.com/go-goldiam/gol/accounts/abi/bind"
-	"github.com/go-goldiam/gol/common"
-	"github.com/go-goldiam/gol/eth"
-	"github.com/go-goldiam/gol/internal/ethapi"
-	"github.com/go-goldiam/gol/les"
-	"github.com/go-goldiam/gol/log"
-	"github.com/go-goldiam/gol/node"
-	"github.com/go-goldiam/gol/p2p"
-	"github.com/go-goldiam/gol/rpc"
+	"github.com/GoldiamTech/go-goldiam/accounts/abi/bind"
+	"github.com/GoldiamTech/go-goldiam/common"
+	"github.com/GoldiamTech/go-goldiam/eth"
+	"github.com/GoldiamTech/go-goldiam/internal/ethapi"
+	"github.com/GoldiamTech/go-goldiam/les"
+	"github.com/GoldiamTech/go-goldiam/log"
+	"github.com/GoldiamTech/go-goldiam/node"
+	"github.com/GoldiamTech/go-goldiam/p2p"
+	"github.com/GoldiamTech/go-goldiam/rpc"
 )
 
 // Interval to check for new releases
@@ -149,7 +149,7 @@ func (r *ReleaseService) checkVersion() {
 
 		warning := fmt.Sprintf("Client v%d.%d.%d-%x seems older than the latest upstream release v%d.%d.%d-%x",
 			r.config.Major, r.config.Minor, r.config.Patch, r.config.Commit[:4], version.Major, version.Minor, version.Patch, version.Commit[:4])
-		howtofix := fmt.Sprintf("Please check https://github.com/go-goldiam/gol/releases for new releases")
+		howtofix := fmt.Sprintf("Please check https://github.com/GoldiamTech/go-goldiam/releases for new releases")
 		separator := strings.Repeat("-", len(warning))
 
 		log.Warn(separator)

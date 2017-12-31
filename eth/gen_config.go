@@ -5,11 +5,11 @@ package eth
 import (
 	"math/big"
 
-	"github.com/go-goldiam/gol/common"
-	"github.com/go-goldiam/gol/common/hexutil"
-	"github.com/go-goldiam/gol/core"
-	"github.com/go-goldiam/gol/eth/downloader"
-	"github.com/go-goldiam/gol/eth/gasprice"
+	"github.com/GoldiamTech/go-goldiam/common"
+	"github.com/GoldiamTech/go-goldiam/common/hexutil"
+	"github.com/GoldiamTech/go-goldiam/core"
+	"github.com/GoldiamTech/go-goldiam/eth/downloader"
+	"github.com/GoldiamTech/go-goldiam/eth/gasprice"
 )
 
 func (c Config) MarshalTOML() (interface{}, error) {

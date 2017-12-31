@@ -24,8 +24,8 @@ import (
 	"runtime"
 	"testing"
 
-	"github.com/go-goldiam/gol/crypto"
-	"github.com/go-goldiam/gol/p2p"
+	"github.com/GoldiamTech/go-goldiam/crypto"
+	"github.com/GoldiamTech/go-goldiam/p2p"
 )
 
 // Tests that datadirs can be successfully created, be them manually configured

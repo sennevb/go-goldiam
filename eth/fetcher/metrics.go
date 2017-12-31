@@ -19,7 +19,7 @@
 package fetcher
 
 import (
-	"github.com/go-goldiam/gol/metrics"
+	"github.com/GoldiamTech/go-goldiam/metrics"
 )
 
 var (

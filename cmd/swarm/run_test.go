@@ -26,13 +26,13 @@ import (
 	"testing"
 	"time"
 
+	"github.com/GoldiamTech/go-goldiam/accounts/keystore"
+	"github.com/GoldiamTech/go-goldiam/internal/cmdtest"
+	"github.com/GoldiamTech/go-goldiam/node"
+	"github.com/GoldiamTech/go-goldiam/p2p"
+	"github.com/GoldiamTech/go-goldiam/rpc"
+	"github.com/GoldiamTech/go-goldiam/swarm"
 	"github.com/docker/docker/pkg/reexec"
-	"github.com/go-goldiam/gol/accounts/keystore"
-	"github.com/go-goldiam/gol/internal/cmdtest"
-	"github.com/go-goldiam/gol/node"
-	"github.com/go-goldiam/gol/p2p"
-	"github.com/go-goldiam/gol/rpc"
-	"github.com/go-goldiam/gol/swarm"
 )
 
 func init() {

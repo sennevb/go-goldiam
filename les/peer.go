@@ -24,12 +24,12 @@ import (
 	"sync"
 	"time"
 
-	"github.com/go-goldiam/gol/common"
-	"github.com/go-goldiam/gol/core/types"
-	"github.com/go-goldiam/gol/eth"
-	"github.com/go-goldiam/gol/les/flowcontrol"
-	"github.com/go-goldiam/gol/p2p"
-	"github.com/go-goldiam/gol/rlp"
+	"github.com/GoldiamTech/go-goldiam/common"
+	"github.com/GoldiamTech/go-goldiam/core/types"
+	"github.com/GoldiamTech/go-goldiam/eth"
+	"github.com/GoldiamTech/go-goldiam/les/flowcontrol"
+	"github.com/GoldiamTech/go-goldiam/p2p"
+	"github.com/GoldiamTech/go-goldiam/rlp"
 )
 
 var (

@@ -21,8 +21,8 @@ import (
 	"fmt"
 	"net/http"
 
-	"github.com/go-goldiam/gol/accounts/keystore"
-	"github.com/go-goldiam/gol/log"
+	"github.com/GoldiamTech/go-goldiam/accounts/keystore"
+	"github.com/GoldiamTech/go-goldiam/log"
 )
 
 // deployFaucet queries the user for various input on deploying a faucet, after

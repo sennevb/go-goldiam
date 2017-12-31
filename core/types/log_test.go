@@ -22,9 +22,9 @@ import (
 	"reflect"
 	"testing"
 
+	"github.com/GoldiamTech/go-goldiam/common"
+	"github.com/GoldiamTech/go-goldiam/common/hexutil"
 	"github.com/davecgh/go-spew/spew"
-	"github.com/go-goldiam/gol/common"
-	"github.com/go-goldiam/gol/common/hexutil"
 )
 
 var unmarshalLogTests = map[string]struct {

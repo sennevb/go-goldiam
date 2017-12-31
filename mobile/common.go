@@ -24,7 +24,7 @@ import (
 	"fmt"
 	"strings"
 
-	"github.com/go-goldiam/gol/common"
+	"github.com/GoldiamTech/go-goldiam/common"
 )
 
 // Hash represents the 32 byte Keccak256 hash of arbitrary data.

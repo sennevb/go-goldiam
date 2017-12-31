@@ -30,12 +30,12 @@ import (
 	"testing"
 	"time"
 
+	"github.com/GoldiamTech/go-goldiam/crypto"
+	"github.com/GoldiamTech/go-goldiam/crypto/ecies"
+	"github.com/GoldiamTech/go-goldiam/crypto/sha3"
+	"github.com/GoldiamTech/go-goldiam/p2p/discover"
+	"github.com/GoldiamTech/go-goldiam/rlp"
 	"github.com/davecgh/go-spew/spew"
-	"github.com/go-goldiam/gol/crypto"
-	"github.com/go-goldiam/gol/crypto/ecies"
-	"github.com/go-goldiam/gol/crypto/sha3"
-	"github.com/go-goldiam/gol/p2p/discover"
-	"github.com/go-goldiam/gol/rlp"
 )
 
 func TestSharedSecret(t *testing.T) {

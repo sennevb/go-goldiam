@@ -38,9 +38,9 @@ import (
 	"math/big"
 	"unsafe"
 
-	"github.com/go-goldiam/gol/core/state"
-	"github.com/go-goldiam/gol/crypto"
-	"github.com/go-goldiam/gol/params"
+	"github.com/GoldiamTech/go-goldiam/core/state"
+	"github.com/GoldiamTech/go-goldiam/crypto"
+	"github.com/GoldiamTech/go-goldiam/params"
 )
 
 type JitVm struct {

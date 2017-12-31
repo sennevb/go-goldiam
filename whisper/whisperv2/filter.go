@@ -21,7 +21,7 @@ package whisperv2
 import (
 	"crypto/ecdsa"
 
-	"github.com/go-goldiam/gol/event/filter"
+	"github.com/GoldiamTech/go-goldiam/event/filter"
 )
 
 // Filter is used to subscribe to specific types of whisper messages.

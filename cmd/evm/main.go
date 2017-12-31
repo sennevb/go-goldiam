@@ -22,7 +22,7 @@ import (
 	"math/big"
 	"os"
 
-	"github.com/go-goldiam/gol/cmd/utils"
+	"github.com/GoldiamTech/go-goldiam/cmd/utils"
 	"gopkg.in/urfave/cli.v1"
 )
 

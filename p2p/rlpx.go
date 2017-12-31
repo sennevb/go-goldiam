@@ -34,12 +34,12 @@ import (
 	"sync"
 	"time"
 
-	"github.com/go-goldiam/gol/crypto"
-	"github.com/go-goldiam/gol/crypto/ecies"
-	"github.com/go-goldiam/gol/crypto/secp256k1"
-	"github.com/go-goldiam/gol/crypto/sha3"
-	"github.com/go-goldiam/gol/p2p/discover"
-	"github.com/go-goldiam/gol/rlp"
+	"github.com/GoldiamTech/go-goldiam/crypto"
+	"github.com/GoldiamTech/go-goldiam/crypto/ecies"
+	"github.com/GoldiamTech/go-goldiam/crypto/secp256k1"
+	"github.com/GoldiamTech/go-goldiam/crypto/sha3"
+	"github.com/GoldiamTech/go-goldiam/p2p/discover"
+	"github.com/GoldiamTech/go-goldiam/rlp"
 )
 
 const (

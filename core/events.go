@@ -17,8 +17,8 @@
 package core
 
 import (
-	"github.com/go-goldiam/gol/common"
-	"github.com/go-goldiam/gol/core/types"
+	"github.com/GoldiamTech/go-goldiam/common"
+	"github.com/GoldiamTech/go-goldiam/core/types"
 )
 
 // TxPreEvent is posted when a transaction enters the transaction pool.

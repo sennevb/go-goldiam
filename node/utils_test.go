@@ -22,8 +22,8 @@ package node
 import (
 	"reflect"
 
-	"github.com/go-goldiam/gol/p2p"
-	"github.com/go-goldiam/gol/rpc"
+	"github.com/GoldiamTech/go-goldiam/p2p"
+	"github.com/GoldiamTech/go-goldiam/rpc"
 )
 
 // NoopService is a trivial implementation of the Service interface.

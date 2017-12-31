@@ -10,7 +10,7 @@ fi
 # Create fake Go workspace if it doesn't exist yet.
 workspace="$PWD/build/_workspace"
 root="$PWD"
-ethdir="$workspace/src/github.com/go-goldiam"
+ethdir="$workspace/src/github.com/GoldiamTech"
 if [ ! -L "$ethdir/go-goldiam" ]; then
     mkdir -p "$ethdir"
     cd "$ethdir"
@@ -23,8 +23,8 @@ GOPATH="$workspace"
 export GOPATH
 
 # Run the command inside the workspace.
-cd "$ethdir/gol"
-PWD="$ethdir/gol"
+cd "$ethdir/go-goldiam"
+PWD="$ethdir/go-goldiam"
 
 # Launch the arguments with the configured environment.
 exec "$@"

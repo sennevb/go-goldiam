@@ -24,17 +24,17 @@ import (
 	"fmt"
 	"path/filepath"
 
-	"github.com/go-goldiam/gol/core"
-	"github.com/go-goldiam/gol/eth"
-	"github.com/go-goldiam/gol/eth/downloader"
-	"github.com/go-goldiam/gol/ethclient"
-	"github.com/go-goldiam/gol/ethstats"
-	"github.com/go-goldiam/gol/les"
-	"github.com/go-goldiam/gol/node"
-	"github.com/go-goldiam/gol/p2p"
-	"github.com/go-goldiam/gol/p2p/nat"
-	"github.com/go-goldiam/gol/params"
-	whisper "github.com/go-goldiam/gol/whisper/whisperv5"
+	"github.com/GoldiamTech/go-goldiam/core"
+	"github.com/GoldiamTech/go-goldiam/eth"
+	"github.com/GoldiamTech/go-goldiam/eth/downloader"
+	"github.com/GoldiamTech/go-goldiam/ethclient"
+	"github.com/GoldiamTech/go-goldiam/ethstats"
+	"github.com/GoldiamTech/go-goldiam/les"
+	"github.com/GoldiamTech/go-goldiam/node"
+	"github.com/GoldiamTech/go-goldiam/p2p"
+	"github.com/GoldiamTech/go-goldiam/p2p/nat"
+	"github.com/GoldiamTech/go-goldiam/params"
+	whisper "github.com/GoldiamTech/go-goldiam/whisper/whisperv5"
 )
 
 // NodeConfig represents the collection of configuration values to fine tune the Geth

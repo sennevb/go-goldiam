@@ -16,7 +16,7 @@
 
 package core
 
-import "github.com/go-goldiam/gol/common"
+import "github.com/GoldiamTech/go-goldiam/common"
 
 // BadHashes represent a set of manually tracked bad hashes (usually hard forks)
 var BadHashes = map[common.Hash]bool{

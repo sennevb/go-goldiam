@@ -19,7 +19,7 @@ package vm
 import (
 	"math/big"
 
-	"github.com/go-goldiam/gol/common/math"
+	"github.com/GoldiamTech/go-goldiam/common/math"
 )
 
 func memorySha3(stack *Stack) *big.Int {

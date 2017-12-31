@@ -19,7 +19,7 @@ package state
 import (
 	"math/big"
 
-	"github.com/go-goldiam/gol/common"
+	"github.com/GoldiamTech/go-goldiam/common"
 )
 
 type journalEntry interface {

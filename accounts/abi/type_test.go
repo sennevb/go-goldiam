@@ -21,7 +21,7 @@ import (
 	"reflect"
 	"testing"
 
-	"github.com/go-goldiam/gol/common"
+	"github.com/GoldiamTech/go-goldiam/common"
 )
 
 // typeWithoutStringer is a alias for the Type type which simply doesn't implement

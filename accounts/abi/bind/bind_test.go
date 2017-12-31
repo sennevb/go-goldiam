@@ -26,7 +26,7 @@ import (
 	"strings"
 	"testing"
 
-	"github.com/go-goldiam/gol/common"
+	"github.com/GoldiamTech/go-goldiam/common"
 	"golang.org/x/tools/imports"
 )
 

@@ -21,7 +21,7 @@ package geth
 import (
 	"errors"
 
-	"github.com/go-goldiam/gol/p2p"
+	"github.com/GoldiamTech/go-goldiam/p2p"
 )
 
 // NodeInfo represents pi short summary of the information known about the host.

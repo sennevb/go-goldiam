@@ -22,8 +22,8 @@ import (
 	"strings"
 	"text/tabwriter"
 
-	"github.com/go-goldiam/gol/cmd/utils"
-	swarm "github.com/go-goldiam/gol/swarm/api/client"
+	"github.com/GoldiamTech/go-goldiam/cmd/utils"
+	swarm "github.com/GoldiamTech/go-goldiam/swarm/api/client"
 	"gopkg.in/urfave/cli.v1"
 )
 

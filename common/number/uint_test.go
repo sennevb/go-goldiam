@@ -20,7 +20,7 @@ import (
 	"math/big"
 	"testing"
 
-	"github.com/go-goldiam/gol/common"
+	"github.com/GoldiamTech/go-goldiam/common"
 )
 
 func TestSet(t *testing.T) {

@@ -26,12 +26,12 @@ import (
 	"runtime"
 	"strings"
 
-	"github.com/go-goldiam/gol/core"
-	"github.com/go-goldiam/gol/core/types"
-	"github.com/go-goldiam/gol/internal/debug"
-	"github.com/go-goldiam/gol/log"
-	"github.com/go-goldiam/gol/node"
-	"github.com/go-goldiam/gol/rlp"
+	"github.com/GoldiamTech/go-goldiam/core"
+	"github.com/GoldiamTech/go-goldiam/core/types"
+	"github.com/GoldiamTech/go-goldiam/internal/debug"
+	"github.com/GoldiamTech/go-goldiam/log"
+	"github.com/GoldiamTech/go-goldiam/node"
+	"github.com/GoldiamTech/go-goldiam/rlp"
 )
 
 const (

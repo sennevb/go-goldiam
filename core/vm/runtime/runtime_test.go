@@ -21,11 +21,11 @@ import (
 	"strings"
 	"testing"
 
-	"github.com/go-goldiam/gol/accounts/abi"
-	"github.com/go-goldiam/gol/common"
-	"github.com/go-goldiam/gol/core/state"
-	"github.com/go-goldiam/gol/core/vm"
-	"github.com/go-goldiam/gol/ethdb"
+	"github.com/GoldiamTech/go-goldiam/accounts/abi"
+	"github.com/GoldiamTech/go-goldiam/common"
+	"github.com/GoldiamTech/go-goldiam/core/state"
+	"github.com/GoldiamTech/go-goldiam/core/vm"
+	"github.com/GoldiamTech/go-goldiam/ethdb"
 )
 
 func TestDefaults(t *testing.T) {

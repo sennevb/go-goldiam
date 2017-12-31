@@ -20,10 +20,10 @@ import (
 	"fmt"
 	"time"
 
-	"github.com/go-goldiam/gol/common"
-	"github.com/go-goldiam/gol/log"
-	"github.com/go-goldiam/gol/p2p"
-	"github.com/go-goldiam/gol/rlp"
+	"github.com/GoldiamTech/go-goldiam/common"
+	"github.com/GoldiamTech/go-goldiam/log"
+	"github.com/GoldiamTech/go-goldiam/p2p"
+	"github.com/GoldiamTech/go-goldiam/rlp"
 	set "gopkg.in/fatih/set.v0"
 )
 

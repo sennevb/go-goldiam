@@ -5,7 +5,7 @@ package whisperv5
 import (
 	"encoding/json"
 
-	"github.com/go-goldiam/gol/common/hexutil"
+	"github.com/GoldiamTech/go-goldiam/common/hexutil"
 )
 
 var _ = (*criteriaOverride)(nil)

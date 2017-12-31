@@ -26,11 +26,11 @@ import (
 	"testing"
 	"time"
 
-	"github.com/go-goldiam/gol/common"
-	"github.com/go-goldiam/gol/core"
-	"github.com/go-goldiam/gol/eth"
-	"github.com/go-goldiam/gol/internal/jsre"
-	"github.com/go-goldiam/gol/node"
+	"github.com/GoldiamTech/go-goldiam/common"
+	"github.com/GoldiamTech/go-goldiam/core"
+	"github.com/GoldiamTech/go-goldiam/eth"
+	"github.com/GoldiamTech/go-goldiam/internal/jsre"
+	"github.com/GoldiamTech/go-goldiam/node"
 )
 
 const (

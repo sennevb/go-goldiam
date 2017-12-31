@@ -22,7 +22,7 @@ import (
 	"errors"
 	"math/big"
 
-	"github.com/go-goldiam/gol/common"
+	"github.com/GoldiamTech/go-goldiam/common"
 )
 
 // A BigInt represents a signed multi-precision integer.

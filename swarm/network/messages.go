@@ -21,11 +21,11 @@ import (
 	"net"
 	"time"
 
-	"github.com/go-goldiam/gol/contracts/chequebook"
-	"github.com/go-goldiam/gol/p2p/discover"
-	"github.com/go-goldiam/gol/swarm/network/kademlia"
-	"github.com/go-goldiam/gol/swarm/services/swap"
-	"github.com/go-goldiam/gol/swarm/storage"
+	"github.com/GoldiamTech/go-goldiam/contracts/chequebook"
+	"github.com/GoldiamTech/go-goldiam/p2p/discover"
+	"github.com/GoldiamTech/go-goldiam/swarm/network/kademlia"
+	"github.com/GoldiamTech/go-goldiam/swarm/services/swap"
+	"github.com/GoldiamTech/go-goldiam/swarm/storage"
 )
 
 /*

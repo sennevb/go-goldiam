@@ -21,9 +21,9 @@ import (
 	"testing"
 	"time"
 
-	"github.com/go-goldiam/gol/eth/downloader"
-	"github.com/go-goldiam/gol/p2p"
-	"github.com/go-goldiam/gol/p2p/discover"
+	"github.com/GoldiamTech/go-goldiam/eth/downloader"
+	"github.com/GoldiamTech/go-goldiam/p2p"
+	"github.com/GoldiamTech/go-goldiam/p2p/discover"
 )
 
 // Tests that fast sync gets disabled as soon as a real block is successfully

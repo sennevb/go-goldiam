@@ -19,7 +19,7 @@ package ethapi
 import (
 	"sync"
 
-	"github.com/go-goldiam/gol/common"
+	"github.com/GoldiamTech/go-goldiam/common"
 )
 
 type AddrLocker struct {

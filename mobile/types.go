@@ -23,9 +23,9 @@ import (
 	"errors"
 	"fmt"
 
-	"github.com/go-goldiam/gol/common"
-	"github.com/go-goldiam/gol/core/types"
-	"github.com/go-goldiam/gol/rlp"
+	"github.com/GoldiamTech/go-goldiam/common"
+	"github.com/GoldiamTech/go-goldiam/core/types"
+	"github.com/GoldiamTech/go-goldiam/rlp"
 )
 
 // A Nonce is a 64-bit hash which proves (combined with the mix-hash) that

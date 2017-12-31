@@ -19,7 +19,7 @@
 
 package whisperv2
 
-import "github.com/go-goldiam/gol/crypto"
+import "github.com/GoldiamTech/go-goldiam/crypto"
 
 // Topic represents a cryptographically secure, probabilistic partial
 // classifications of a message, determined as the first (left) 4 bytes of the

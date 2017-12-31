@@ -30,9 +30,9 @@ import (
 	"strconv"
 	"strings"
 
-	"github.com/go-goldiam/gol/common"
-	"github.com/go-goldiam/gol/crypto"
-	"github.com/go-goldiam/gol/crypto/secp256k1"
+	"github.com/GoldiamTech/go-goldiam/common"
+	"github.com/GoldiamTech/go-goldiam/crypto"
+	"github.com/GoldiamTech/go-goldiam/crypto/secp256k1"
 )
 
 const NodeIDBits = 512

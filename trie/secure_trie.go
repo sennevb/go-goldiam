@@ -19,8 +19,8 @@ package trie
 import (
 	"fmt"
 
-	"github.com/go-goldiam/gol/common"
-	"github.com/go-goldiam/gol/log"
+	"github.com/GoldiamTech/go-goldiam/common"
+	"github.com/GoldiamTech/go-goldiam/log"
 )
 
 var secureKeyPrefix = []byte("secure-key-")

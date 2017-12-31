@@ -25,7 +25,7 @@ import (
 	"sync"
 	"testing"
 
-	"github.com/go-goldiam/gol/ethdb"
+	"github.com/GoldiamTech/go-goldiam/ethdb"
 )
 
 func newTestLDB() (*ethdb.LDBDatabase, func()) {

@@ -19,7 +19,7 @@ package number
 import (
 	"math/big"
 
-	"github.com/go-goldiam/gol/common"
+	"github.com/GoldiamTech/go-goldiam/common"
 )
 
 var tt256 = new(big.Int).Lsh(big.NewInt(1), 256)

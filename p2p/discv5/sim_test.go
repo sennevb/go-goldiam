@@ -28,7 +28,7 @@ import (
 	"testing"
 	"time"
 
-	"github.com/go-goldiam/gol/common"
+	"github.com/GoldiamTech/go-goldiam/common"
 )
 
 // In this test, nodes try to randomly resolve each other.

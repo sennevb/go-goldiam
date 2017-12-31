@@ -19,7 +19,7 @@ package vm
 import (
 	"fmt"
 
-	"github.com/go-goldiam/gol/params"
+	"github.com/GoldiamTech/go-goldiam/params"
 )
 
 func makeStackFunc(pop, push int) stackValidationFunc {

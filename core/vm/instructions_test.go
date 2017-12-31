@@ -4,8 +4,8 @@ import (
 	"math/big"
 	"testing"
 
-	"github.com/go-goldiam/gol/common"
-	"github.com/go-goldiam/gol/params"
+	"github.com/GoldiamTech/go-goldiam/common"
+	"github.com/GoldiamTech/go-goldiam/params"
 )
 
 func TestByteOp(t *testing.T) {

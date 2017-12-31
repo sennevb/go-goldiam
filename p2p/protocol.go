@@ -19,7 +19,7 @@ package p2p
 import (
 	"fmt"
 
-	"github.com/go-goldiam/gol/p2p/discover"
+	"github.com/GoldiamTech/go-goldiam/p2p/discover"
 )
 
 // Protocol represents a P2P subprotocol implementation.

@@ -26,9 +26,9 @@ import (
 	"testing"
 	"time"
 
-	"github.com/go-goldiam/gol/accounts"
-	"github.com/go-goldiam/gol/common"
-	"github.com/go-goldiam/gol/event"
+	"github.com/GoldiamTech/go-goldiam/accounts"
+	"github.com/GoldiamTech/go-goldiam/common"
+	"github.com/GoldiamTech/go-goldiam/event"
 )
 
 var testSigData = make([]byte, 32)

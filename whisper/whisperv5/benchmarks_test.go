@@ -19,7 +19,7 @@ package whisperv5
 import (
 	"testing"
 
-	"github.com/go-goldiam/gol/crypto"
+	"github.com/GoldiamTech/go-goldiam/crypto"
 )
 
 func BenchmarkDeriveKeyMaterial(b *testing.B) {

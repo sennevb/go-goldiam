@@ -21,9 +21,9 @@ package geth
 import (
 	"encoding/json"
 
-	"github.com/go-goldiam/gol/core"
-	"github.com/go-goldiam/gol/p2p/discv5"
-	"github.com/go-goldiam/gol/params"
+	"github.com/GoldiamTech/go-goldiam/core"
+	"github.com/GoldiamTech/go-goldiam/p2p/discv5"
+	"github.com/GoldiamTech/go-goldiam/params"
 )
 
 // MainnetGenesis returns the JSON spec to use for the main Ethereum network. It

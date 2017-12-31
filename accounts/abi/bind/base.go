@@ -22,11 +22,11 @@ import (
 	"fmt"
 	"math/big"
 
-	"github.com/go-goldiam/gol"
-	"github.com/go-goldiam/gol/accounts/abi"
-	"github.com/go-goldiam/gol/common"
-	"github.com/go-goldiam/gol/core/types"
-	"github.com/go-goldiam/gol/crypto"
+	"github.com/GoldiamTech/go-goldiam"
+	"github.com/GoldiamTech/go-goldiam/accounts/abi"
+	"github.com/GoldiamTech/go-goldiam/common"
+	"github.com/GoldiamTech/go-goldiam/core/types"
+	"github.com/GoldiamTech/go-goldiam/crypto"
 )
 
 // SignerFn is a signer function callback when a contract requires a method to

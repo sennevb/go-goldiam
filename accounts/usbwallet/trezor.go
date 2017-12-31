@@ -27,12 +27,12 @@ import (
 	"io"
 	"math/big"
 
-	"github.com/go-goldiam/gol/accounts"
-	"github.com/go-goldiam/gol/accounts/usbwallet/internal/trezor"
-	"github.com/go-goldiam/gol/common"
-	"github.com/go-goldiam/gol/common/hexutil"
-	"github.com/go-goldiam/gol/core/types"
-	"github.com/go-goldiam/gol/log"
+	"github.com/GoldiamTech/go-goldiam/accounts"
+	"github.com/GoldiamTech/go-goldiam/accounts/usbwallet/internal/trezor"
+	"github.com/GoldiamTech/go-goldiam/common"
+	"github.com/GoldiamTech/go-goldiam/common/hexutil"
+	"github.com/GoldiamTech/go-goldiam/core/types"
+	"github.com/GoldiamTech/go-goldiam/log"
 	"github.com/golang/protobuf/proto"
 )
 

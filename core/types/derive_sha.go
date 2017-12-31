@@ -19,9 +19,9 @@ package types
 import (
 	"bytes"
 
-	"github.com/go-goldiam/gol/common"
-	"github.com/go-goldiam/gol/rlp"
-	"github.com/go-goldiam/gol/trie"
+	"github.com/GoldiamTech/go-goldiam/common"
+	"github.com/GoldiamTech/go-goldiam/rlp"
+	"github.com/GoldiamTech/go-goldiam/trie"
 )
 
 type DerivableList interface {

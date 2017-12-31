@@ -25,9 +25,9 @@ import (
 	"sort"
 	"time"
 
-	"github.com/go-goldiam/gol/common"
-	"github.com/go-goldiam/gol/common/mclock"
-	"github.com/go-goldiam/gol/crypto"
+	"github.com/GoldiamTech/go-goldiam/common"
+	"github.com/GoldiamTech/go-goldiam/common/mclock"
+	"github.com/GoldiamTech/go-goldiam/crypto"
 )
 
 const (

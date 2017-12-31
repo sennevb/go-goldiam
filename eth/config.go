@@ -23,12 +23,12 @@ import (
 	"path/filepath"
 	"runtime"
 
-	"github.com/go-goldiam/gol/common"
-	"github.com/go-goldiam/gol/common/hexutil"
-	"github.com/go-goldiam/gol/core"
-	"github.com/go-goldiam/gol/eth/downloader"
-	"github.com/go-goldiam/gol/eth/gasprice"
-	"github.com/go-goldiam/gol/params"
+	"github.com/GoldiamTech/go-goldiam/common"
+	"github.com/GoldiamTech/go-goldiam/common/hexutil"
+	"github.com/GoldiamTech/go-goldiam/core"
+	"github.com/GoldiamTech/go-goldiam/eth/downloader"
+	"github.com/GoldiamTech/go-goldiam/eth/gasprice"
+	"github.com/GoldiamTech/go-goldiam/params"
 )
 
 // DefaultConfig contains default settings for use on the Ethereum main net.
@@ -59,7 +59,7 @@ func init() {
 		}
 	}
 	if runtime.GOOS == "windows" {
-		DefaultConfig.EthashDatasetDir = filepath.Join(home, "AppData", "gol")
+		DefaultConfig.EthashDatasetDir = filepath.Join(home, "AppData", "Goldiam")
 	} else {
 		DefaultConfig.EthashDatasetDir = filepath.Join(home, ".gol")
 	}
