@@ -39,7 +39,7 @@ var DefaultConfig = Config{
 	EthashCachesOnDisk:   3,
 	EthashDatasetsInMem:  1,
 	EthashDatasetsOnDisk: 2,
-	NetworkId:            3125659152,
+	NetworkId:            1426,
 	LightPeers:           20,
 	DatabaseCache:        128,
 	GasPrice:             big.NewInt(18 * params.Shannon),

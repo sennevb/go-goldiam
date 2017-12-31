@@ -45,7 +45,7 @@ var ProtocolLengths = []uint64{17, 8}
 
 //const ProtocolMaxMsgSize = 10 * 1024 * 1024 // Maximum cap on the size of a protocol message
 const (
-	NetworkId          = 3125659152
+	NetworkId          = 1426
 	ProtocolMaxMsgSize = 10 * 1024 * 1024 // Maximum cap on the size of a protocol message
 )
 
