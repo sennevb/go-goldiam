@@ -1,4 +1,4 @@
-Name "gol ${MAJORVERSION}.${MINORVERSION}.${BUILDVERSION}" # VERSION variables set through command line arguments
+Name "ggol ${MAJORVERSION}.${MINORVERSION}.${BUILDVERSION}" # VERSION variables set through command line arguments
 InstallDir "$InstDir"
 OutFile "${OUTPUTFILE}" # set through command line arguments
 
@@ -12,30 +12,30 @@ PageEx license
   LicenseData {{.License}}
 PageExEnd
 
-# Install gol binary
-Section "Goldiam" GETH_IDX
+# Install ggol binary
+Section "Ggol" GETH_IDX
   SetOutPath $INSTDIR
-  file {{.Goldiam}}
+  file {{.Ggol}}
 
   # Create start menu launcher
   createDirectory "$SMPROGRAMS\${APPNAME}"
-  createShortCut "$SMPROGRAMS\${APPNAME}\${APPNAME}.lnk" "$INSTDIR\gol.exe" "--fast" "--cache=512"
-  createShortCut "$SMPROGRAMS\${APPNAME}\Attach.lnk" "$INSTDIR\gol.exe" "attach" "" ""
+  createShortCut "$SMPROGRAMS\${APPNAME}\${APPNAME}.lnk" "$INSTDIR\ggol.exe" "--fast" "--cache=512"
+  createShortCut "$SMPROGRAMS\${APPNAME}\Attach.lnk" "$INSTDIR\ggol.exe" "attach" "" ""
   createShortCut "$SMPROGRAMS\${APPNAME}\Uninstall.lnk" "$INSTDIR\uninstall.exe" "" "" ""
 
   # Firewall - remove rules (if exists)
-  SimpleFC::AdvRemoveRule "Goldiam incoming peers (TCP:30303)"
-  SimpleFC::AdvRemoveRule "Goldiam outgoing peers (TCP:30303)"
-  SimpleFC::AdvRemoveRule "Goldiam UDP discovery (UDP:30303)"
+  SimpleFC::AdvRemoveRule "Ggol incoming peers (TCP:52018)"
+  SimpleFC::AdvRemoveRule "Ggol outgoing peers (TCP:52018)"
+  SimpleFC::AdvRemoveRule "Ggol UDP discovery (UDP:52018)"
 
   # Firewall - add rules
-  SimpleFC::AdvAddRule "Goldiam incoming peers (TCP:30303)" ""  6 1 1 2147483647 1 "$INSTDIR\gol.exe" "" "" "Ethereum" 30303 "" "" ""
-  SimpleFC::AdvAddRule "Goldiam outgoing peers (TCP:30303)" ""  6 2 1 2147483647 1 "$INSTDIR\gol.exe" "" "" "Ethereum" "" 30303 "" ""
-  SimpleFC::AdvAddRule "Goldiam UDP discovery (UDP:30303)" "" 17 2 1 2147483647 1 "$INSTDIR\gol.exe" "" "" "Ethereum" "" 30303 "" ""
+  SimpleFC::AdvAddRule "Ggol incoming peers (TCP:52018)" ""  6 1 1 2147483647 1 "$INSTDIR\ggol.exe" "" "" "Ethereum" 52018 "" "" ""
+  SimpleFC::AdvAddRule "Ggol outgoing peers (TCP:52018)" ""  6 2 1 2147483647 1 "$INSTDIR\ggol.exe" "" "" "Ethereum" "" 52018 "" ""
+  SimpleFC::AdvAddRule "Ggol UDP discovery (UDP:52018)" "" 17 2 1 2147483647 1 "$INSTDIR\ggol.exe" "" "" "Ethereum" "" 52018 "" ""
 
   # Set default IPC endpoint (https://github.com/ethereum/EIPs/issues/147)
-  ${EnvVarUpdate} $0 "ETHEREUM_SOCKET" "R" "HKLM" "\\.\pipe\gol.ipc"
-  ${EnvVarUpdate} $0 "ETHEREUM_SOCKET" "A" "HKLM" "\\.\pipe\gol.ipc"
+  ${EnvVarUpdate} $0 "ETHEREUM_SOCKET" "R" "HKLM" "\\.\pipe\ggol.ipc"
+  ${EnvVarUpdate} $0 "ETHEREUM_SOCKET" "A" "HKLM" "\\.\pipe\ggol.ipc"
 
   # Add instdir to PATH
   Push "$INSTDIR"

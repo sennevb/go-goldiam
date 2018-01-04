@@ -4,7 +4,7 @@ default: build
 
 build:
 	go build -o bin/swarm    github.com/GoldiamTech/go-goldiam/cmd/swarm
-	go build -o bin/geth     github.com/GoldiamTech/go-goldiam/cmd/geth
+	go build -o bin/ggol     github.com/GoldiamTech/go-goldiam/cmd/ggol
 	go build -o bin/bootnode github.com/GoldiamTech/go-goldiam/cmd/bootnode
 
 cluster: build

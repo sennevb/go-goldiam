@@ -61,7 +61,7 @@ func init() {
 	if runtime.GOOS == "windows" {
 		DefaultConfig.EthashDatasetDir = filepath.Join(home, "AppData", "Goldiam")
 	} else {
-		DefaultConfig.EthashDatasetDir = filepath.Join(home, ".gol")
+		DefaultConfig.EthashDatasetDir = filepath.Join(home, ".goldiam")
 	}
 }
 

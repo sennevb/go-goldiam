@@ -126,12 +126,12 @@ func New(ctx *node.ServiceContext, config *Config) (*Ethereum, error) {
 	if err := addMipmapBloomBins(chainDb); err != nil {
 		return nil, err
 	}
-	log.Info("Initialising Ethereum protocol", "versions", ProtocolVersions, "network", config.NetworkId)
+	log.Info("Initialising Goldiam protocol", "versions", ProtocolVersions, "network", config.NetworkId)
 
 	if !config.SkipBcVersionCheck {
 		bcVersion := core.GetBlockChainVersion(chainDb)
 		if bcVersion != core.BlockChainVersion && bcVersion != 0 {
-			return nil, fmt.Errorf("Blockchain DB version mismatch (%d / %d). Run geth upgradedb.\n", bcVersion, core.BlockChainVersion)
+			return nil, fmt.Errorf("Blockchain DB version mismatch (%d / %d). Run ggol upgradedb.\n", bcVersion, core.BlockChainVersion)
 		}
 		core.WriteBlockChainVersion(chainDb, core.BlockChainVersion)
 	}
@@ -186,7 +186,7 @@ func makeExtraData(extra []byte) []byte {
 		// create default extradata
 		extra, _ = rlp.EncodeToBytes([]interface{}{
 			uint(params.VersionMajor<<16 | params.VersionMinor<<8 | params.VersionPatch),
-			"geth",
+			"ggol",
 			runtime.Version(),
 			runtime.GOOS,
 		})

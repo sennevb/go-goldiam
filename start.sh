@@ -1,2 +1,2 @@
 #!/bin/bash
-gol --rpc --rpcaddr 0.0.0.0 --rpccorsdomain * --rpcport 6588  --rpcapi "eth,net,web3"
+ggol --rpc --rpcaddr 0.0.0.0 --rpccorsdomain * --rpcport 2009  --rpcapi "eth,net,web3"

@@ -32,14 +32,14 @@ BRIDGE_IP="192.168.33.1"
 
 # static bootnode configuration
 BOOTNODE_IP="192.168.33.2"
-BOOTNODE_PORT="30301"
+BOOTNODE_PORT="52018"
 BOOTNODE_KEY="32078f313bea771848db70745225c52c00981589ad6b5b49163f0f5ee852617d"
 BOOTNODE_PUBKEY="760c4460e5336ac9bbd87952a3c7ec4363fc0a97bd31c86430806e287b437fd1b01abc6e1db640cf3106b520344af1d58b00b57823db3e1407cbc433e1b6d04d"
 BOOTNODE_URL="enode://${BOOTNODE_PUBKEY}@${BOOTNODE_IP}:${BOOTNODE_PORT}"
 
 # static geth configuration
 GETH_IP="192.168.33.3"
-GETH_RPC_PORT="8545"
+GETH_RPC_PORT="2009"
 GETH_RPC_URL="http://${GETH_IP}:${GETH_RPC_PORT}"
 
 usage() {
@@ -68,7 +68,7 @@ main() {
   stop_cluster
   create_network
   start_bootnode
-  start_geth_node
+  start_ggol_node
   start_swarm_nodes
 }
 
@@ -138,23 +138,23 @@ start_bootnode() {
 
 # start_geth_node starts a geth node with --datadir pointing at <base-dir>/geth
 # and a single, unlocked account with password "geth"
-start_geth_node() {
-  local dir="${base_dir}/geth"
+start_ggol_node() {
+  local dir="${base_dir}/ggol"
   mkdir -p "${dir}"
 
-  local password="geth"
+  local password="ggol"
   echo "${password}" > "${dir}/password"
 
   # create an account if necessary
   if [[ ! -e "${dir}/keystore" ]]; then
-    info "creating geth account"
+    info "creating ggol account"
     create_account "${dir}" "${password}"
   fi
 
   # get the account address
   local address="$(jq --raw-output '.address' ${dir}/keystore/*)"
   if [[ -z "${address}" ]]; then
-    fail "failed to get geth account address"
+    fail "failed to get ggol account address"
   fi
 
   local args=(
@@ -169,7 +169,7 @@ start_geth_node() {
     --verbosity "6"
   )
 
-  start_node "geth" "${GETH_IP}" "$(which geth)" ${args[@]}
+  start_node "ggol" "${GETH_IP}" "$(which ggol)" ${args[@]}
 }
 
 start_swarm_nodes() {

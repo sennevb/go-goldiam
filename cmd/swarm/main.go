@@ -104,7 +104,7 @@ var (
 	EnsAPIFlag = cli.StringFlag{
 		Name:  "ens-api",
 		Usage: "URL of the Ethereum API provider to use for ENS record lookups",
-		Value: node.DefaultIPCEndpoint("geth"),
+		Value: node.DefaultIPCEndpoint("ggol"),
 	}
 	EnsAddrFlag = cli.StringFlag{
 		Name:  "ens-addr",

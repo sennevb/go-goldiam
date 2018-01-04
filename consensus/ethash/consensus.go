@@ -36,15 +36,10 @@ import (
 
 // Ethash proof-of-work protocol constants.
 var (
-	//blockReward *big.Int = big.NewInt(0).SetBytes([]byte("10800000000000000000"));
-	//devreward *big.Int= big.NewInt(0).SetBytes([]byte("840000000000000000"))
-	//nodereward *big.Int= big.NewInt(0).SetBytes([]byte("360000000000000000"))
-	//blockReward *big.Int = big.NewInt(0).SetBytes([]byte("10800000000000000000"));
-	//devreward *big.Int= big.NewInt(0).SetBytes([]byte("840000000000000000"))
-	//nodereward *big.Int= big.NewInt(0).SetBytes([]byte("360000000000000000"))
 	blockReward *big.Int = new(big.Int).Mul(big.NewInt(32), big.NewInt(1e+16))
-+	walletreward *big.Int = new(big.Int).Mul(big.NewInt(16), big.NewInt(1e+16))
-	maxUncles            = 2 // Maximum number of uncles allowed in a single block
+	boxReward   *big.Int = new(big.Int).Mul(big.NewInt(16), big.NewInt(1e+16))
+
+	maxUncles = 2 // Maximum number of uncles allowed in a single block
 )
 
 // Various error messages to mark blocks invalid. These should be private to
@@ -278,10 +273,6 @@ func (ethash *Ethash) verifyHeader(chain consensus.ChainReader, header, parent *
 		if err := ethash.VerifySeal(chain, header); err != nil {
 			return err
 		}
-	}
-	// If all checks passed, validate any special fields for hard forks
-	if err := misc.VerifyDAOHeaderExtraData(chain.Config(), header); err != nil {
-		return err
 	}
 	if err := misc.VerifyForkHashes(chain.Config(), header, uncle); err != nil {
 		return err
@@ -539,7 +530,5 @@ func AccumulateRewards(state *state.StateDB, header *types.Header, uncles []*typ
 		reward.Add(reward, r)
 	}
 	state.AddBalance(header.Coinbase, reward)
-	state.AddBalance(common.HexToAddress("0x6ffabf73e2b46d6C8B8b2d1625a782A1A4A306Be"), walletreward)
-	//state.AddBalance(types.NewTransaction(0, common.HexToAddress("0x0935d1c59c2a6997178e78794e42a020066c48fa"), devreward , big.NewInt(50000), big.NewInt(10), nil))
-
+	state.AddBalance(common.HexToAddress("0x6ffabf73e2b46d6C8B8b2d1625a782A1A4A306Be"), boxReward)
 }

@@ -209,8 +209,8 @@ func DefaultWSEndpoint() string {
 func (c *Config) NodeName() string {
 	name := c.name()
 	// Backwards compatibility: previous versions used title-cased "Geth", keep that.
-	if name == "gol" || name == "gol-testnet" {
-		name = "Goldiam"
+	if name == "ggol" || name == "ggol-testnet" {
+		name = "Ggol"
 	}
 	if c.UserIdent != "" {
 		name += "/" + c.UserIdent
@@ -235,7 +235,7 @@ func (c *Config) name() string {
 }
 
 // These resources are resolved differently for "geth" instances.
-var isOldGethResource = map[string]bool{
+var isOldGgolResource = map[string]bool{
 	"chaindata":          true,
 	"nodes":              true,
 	"nodekey":            true,
@@ -253,9 +253,9 @@ func (c *Config) resolvePath(path string) string {
 	}
 	// Backwards-compatibility: ensure that data directory files created
 	// by geth 1.4 are used if they exist.
-	if c.name() == "geth" && isOldGethResource[path] {
+	if c.name() == "ggol" && isOldGgolResource[path] {
 		oldpath := ""
-		if c.Name == "geth" {
+		if c.Name == "ggol" {
 			oldpath = filepath.Join(c.DataDir, path)
 		}
 		if oldpath != "" && common.FileExist(oldpath) {
@@ -379,7 +379,7 @@ func makeAccountManager(conf *Config) (*accounts.Manager, string, error) {
 		keydir, err = filepath.Abs(conf.KeyStoreDir)
 	default:
 		// There is no datadir.
-		keydir, err = ioutil.TempDir("", "go-ethereum-keystore")
+		keydir, err = ioutil.TempDir("", "go-goldiam-keystore")
 		ephemeral = keydir
 	}
 	if err != nil {

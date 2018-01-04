@@ -3,12 +3,12 @@ FROM alpine:3.5
 RUN \
   apk add --update go git make gcc musl-dev linux-headers ca-certificates && \
   git clone --depth 1 --branch release/1.6 https://github.com/GoldiamTech/go-goldiam && \
-  (cd go-ethereum && make geth) && \
-  cp go-ethereum/build/bin/geth /geth && \
+  (cd go-goldiam && make ggol) && \
+  cp go-goldiam/build/bin/ggol /ggol && \
   apk del go git make gcc musl-dev linux-headers && \
-  rm -rf /go-ethereum && rm -rf /var/cache/apk/*
+  rm -rf /go-goldiam && rm -rf /var/cache/apk/*
 
-EXPOSE 8545
-EXPOSE 30303
+EXPOSE 2009
+EXPOSE 52018
 
-ENTRYPOINT ["/geth"]
+ENTRYPOINT ["/ggol"]
