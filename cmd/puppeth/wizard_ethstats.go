@@ -43,12 +43,12 @@ func (w *wizard) deployEthstats() {
 	}
 	// Figure out which port to listen on
 	fmt.Println()
-	fmt.Printf("Which port should ethstats listen on? (default = %d)\n", infos.port)
+	fmt.Printf("Which port should golstats listen on? (default = %d)\n", infos.port)
 	infos.port = w.readDefaultInt(infos.port)
 
 	// Figure which virtual-host to deploy ethstats on
 	if infos.host, err = w.ensureVirtualHost(client, infos.port, infos.host); err != nil {
-		log.Error("Failed to decide on ethstats host", "err", err)
+		log.Error("Failed to decide on golstats host", "err", err)
 		return
 	}
 	// Port and proxy settings retrieved, figure out the secret and boot ethstats
@@ -84,7 +84,7 @@ func (w *wizard) deployEthstats() {
 		}
 	}
 	if out, err := deployEthstats(client, w.network, infos.port, infos.secret, infos.host, trusted, infos.banned); err != nil {
-		log.Error("Failed to deploy ethstats container", "err", err)
+		log.Error("Failed to deploy golstats container", "err", err)
 		if len(out) > 0 {
 			fmt.Printf("%s\n", out)
 		}
