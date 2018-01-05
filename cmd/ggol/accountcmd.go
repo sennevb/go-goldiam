@@ -56,7 +56,7 @@ passwordfile as argument containing the wallet password in plaintext.`,
 					utils.LightKDFFlag,
 				},
 				Description: `
-	ggolwallet [options] /path/to/my/presale.wallet
+	ggol wallet [options] /path/to/my/presale.wallet
 
 will prompt for your password and imports your gol presale account.
 It can be used non-interactively with the --password option taking a
