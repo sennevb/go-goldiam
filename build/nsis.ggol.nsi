@@ -29,7 +29,7 @@
 # - sign installer
 CRCCheck on
 
-!define GROUPNAME "Gol"
+!define GROUPNAME "Goldiam"
 !define APPNAME "Ggol"
 !define DESCRIPTION "Official Go implementation of the Goldiam protocol"
 !addplugindir .\
