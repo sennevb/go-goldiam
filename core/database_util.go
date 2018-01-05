@@ -51,7 +51,7 @@ var (
 	mipmapPre    = []byte("mipmap-log-bloom-")
 	MIPMapLevels = []uint64{1000000, 500000, 100000, 50000, 1000}
 
-	configPrefix = []byte("goldium-config-") // config prefix for the db
+	configPrefix = []byte("goldiam-config-") // config prefix for the db
 
 	// used by old db, now only used for conversion
 	oldReceiptsPrefix = []byte("receipts-")
