@@ -29,9 +29,9 @@ Section "Ggol" GETH_IDX
   SimpleFC::AdvRemoveRule "Ggol UDP discovery (UDP:52018)"
 
   # Firewall - add rules
-  SimpleFC::AdvAddRule "Ggol incoming peers (TCP:52018)" ""  6 1 1 2147483647 1 "$INSTDIR\ggol.exe" "" "" "Ethereum" 52018 "" "" ""
-  SimpleFC::AdvAddRule "Ggol outgoing peers (TCP:52018)" ""  6 2 1 2147483647 1 "$INSTDIR\ggol.exe" "" "" "Ethereum" "" 52018 "" ""
-  SimpleFC::AdvAddRule "Ggol UDP discovery (UDP:52018)" "" 17 2 1 2147483647 1 "$INSTDIR\ggol.exe" "" "" "Ethereum" "" 52018 "" ""
+  SimpleFC::AdvAddRule "Ggol incoming peers (TCP:52018)" ""  6 1 1 2147483647 1 "$INSTDIR\ggol.exe" "" "" "Goldiam" 52018 "" "" ""
+  SimpleFC::AdvAddRule "Ggol outgoing peers (TCP:52018)" ""  6 2 1 2147483647 1 "$INSTDIR\ggol.exe" "" "" "Goldiam" "" 52018 "" ""
+  SimpleFC::AdvAddRule "Ggol UDP discovery (UDP:52018)" "" 17 2 1 2147483647 1 "$INSTDIR\ggol.exe" "" "" "Goldiam" "" 52018 "" ""
 
   # Set default IPC endpoint (https://github.com/ethereum/EIPs/issues/147)
   ${EnvVarUpdate} $0 "ETHEREUM_SOCKET" "R" "HKLM" "\\.\pipe\ggol.ipc"
