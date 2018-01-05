@@ -1,6 +1,6 @@
 FROM alpine:3.6
 ##FROM ubuntu
-ADD . /ggol
+ADD . /go-goldiam
 RUN apk add --update bash && rm -rf /var/cache/apk/*
 RUN \
   apk add --no-cache git go make gcc musl-dev linux-headers && \
