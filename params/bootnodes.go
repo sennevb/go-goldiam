@@ -19,7 +19,7 @@ package params
 // MainnetBootnodes are the enode URLs of the P2P bootstrap nodes running on
 // the main Goldiam network.
 var MainnetBootnodes = []string{
-	"enode://1f0e0a9ee53a68693d7522b2b0a6b8c667cffedba2efe450af6a4bd1c3f31d376a5b49a275254e5a5958966ba2a7197eae7bb8c4c559c61b78ccdff52a24375a@194.135.93.62:52018",
+	"enode://8c6ddfa2265d2eb7a817a8b85fefe0e0014dfd72208e37b99a239fc2c5b0bf36498131a27080993d6fa12e1f927f29400a22ad8839bf1d2298b8a1efc684f2ae@188.246.50.235:52018",
 	// Ethereum Foundation Go Bootnodes
 	// "enode://e28ce45258c481f04be8f84fb9b3ce3906bb54251b17ef957e18afb22a4ac4f784bf39adc5069deec1ca99ee41f02d59d0cb64677bbe661e1e6979da2b7c5276@137.74.31.30:30303",
 	// "enode://33992f6c62498272d677ae721cdf606a2fbfeb7b1ed2d89a1b432f7945078f4de60cb7e130e1d74b59148863089e52c9c1c7cd1c0ad2e2fa8e95df9e3b858a26@213.32.72.24:30303",
@@ -62,7 +62,7 @@ var RinkebyV5Bootnodes = []string{
 // DiscoveryV5Bootnodes are the enode URLs of the P2P bootstrap nodes for the
 // experimental RLPx v5 topic-discovery network.
 var DiscoveryV5Bootnodes = []string{
-	"enode://1f0e0a9ee53a68693d7522b2b0a6b8c667cffedba2efe450af6a4bd1c3f31d376a5b49a275254e5a5958966ba2a7197eae7bb8c4c559c61b78ccdff52a24375a@194.135.93.62:52018",
+	"enode://0fbe93103d9c7f3fdf78be940816a3fb6ef24d526d3010c552714f1b3a8299a38607f81a31a53b18f5da6b0a34c7ab3af92aa49ec60970fbbb2c487ec3689dfe@188.246.50.235:52019",
 	// "enode://e28ce45258c481f04be8f84fb9b3ce3906bb54251b17ef957e18afb22a4ac4f784bf39adc5069deec1ca99ee41f02d59d0cb64677bbe661e1e6979da2b7c5276@137.74.31.30:30303",
 	// "enode://33992f6c62498272d677ae721cdf606a2fbfeb7b1ed2d89a1b432f7945078f4de60cb7e130e1d74b59148863089e52c9c1c7cd1c0ad2e2fa8e95df9e3b858a26@213.32.72.24:30303",
 	// "enode://973a3d1a0ac3e69b75db4dc4d472cb719529d8c87746e0e0978d0fd40c184e23bca0d2ff01d8c74f5d16689f5a0cc6e95ccc7662148328d6e7c1cd9618573538@158.69.85.131:30303",
