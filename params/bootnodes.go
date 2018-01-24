@@ -19,15 +19,19 @@ package params
 // MainnetBootnodes are the enode URLs of the P2P bootstrap nodes running on
 // the main Goldiam network.
 var MainnetBootnodes = []string{
-	"enode://8c6ddfa2265d2eb7a817a8b85fefe0e0014dfd72208e37b99a239fc2c5b0bf36498131a27080993d6fa12e1f927f29400a22ad8839bf1d2298b8a1efc684f2ae@159.89.11.168:52018", //Frankfurt
-	"enode://8734af7e4c9ae0703d4e05cd6eb6f5761a8ee4b11f4bd528ff8e206daf8f4c1f73189bab73cc090102e31b84c5e3694985d077f8a8d69e1c443ccc235f51b01c@46.101.21.192:52018", //London
+	"enode://8c6ddfa2265d2eb7a817a8b85fefe0e0014dfd72208e37b99a239fc2c5b0bf36498131a27080993d6fa12e1f927f29400a22ad8839bf1d2298b8a1efc684f2ae@159.89.11.168:52018",  //Germany/Frankfurt
+	"enode://8734af7e4c9ae0703d4e05cd6eb6f5761a8ee4b11f4bd528ff8e206daf8f4c1f73189bab73cc090102e31b84c5e3694985d077f8a8d69e1c443ccc235f51b01c@46.101.21.192:52018",  //UnitedKingdom/London
+	"enode://3c15548b70925dfe2e6f09da143b97f1b894e775d660f63979604952ca28347a6610bc1dffa694b8a86f3e912da4ab82a9009065410492c6fa901b9dcb3ae1f6@82.196.0.221:52018",   //Netherlands/Amsterdam
+	"enode://f3b197287ee6d2bd19be19cd74bed5b57fd5be67503053b42a52897b329c9eadf113a89b7b772680b55b3bb34681267766a13d0a8ddda058129f2bcc49a8f469@194.135.93.62:52018",  //Lithuania/Vilnius
+	"enode://05172e73e69050889df9e55b7c0a10c85a5e3ebc1080ed32faa392eebb40a6bb99d649847a37f5abbcd632ce5a5fa36d0246e0b33241072201045508a5e05e5f@159.89.189.241:52018", //UnitedStates/NewYork
 }
 
 // TestnetBootnodes are the enode URLs of the P2P bootstrap nodes running on the
 // Ropsten test network.
 var TestnetBootnodes = []string{
-// "enode://6ce05930c72abc632c58e2e4324f7c7ea478cec0ed4fa2528982cf34483094e9cbc9216e7aa349691242576d552a2a56aaeae426c5303ded677ce455ba1acd9d@13.84.180.240:30303", // US-TX
-// "enode://20c9ad97c081d63397d7b685a412227a40e23c8bdc6688c6f37e97cfbc22d2b4d1db1510d8f61e6a8866ad7f0e17c02b14182d37ea7c3c8b9c2683aeb6b733a1@52.169.14.227:30303", // IE
+	"enode://277c002043c2937a333c02b277638ea1da28c5ec78a463903dbe860e345f24f48a26bb8076d45d849275109ea93ae7312a212c98ee2903971c6ee0f17cde43b6@159.89.25.11:52018",     //Germany/Frankfurt
+	"enode://ecd0764c51de7b011a1c487aae74b30f1f23768cb55c7ecd454ff8c0d608d8825464d719f1cb7356718a87f1d946f3557cbb3f9bf29ea0998b296b8cb29d8a4d@188.166.153.227:520188", //UnitedKingdom/London
+	"enode://58b8de8ad7511da01a2e9a17f4dbc26fa032a7f2442754ceb91fd44ee000797e2172722ba9e1e987671f58749b3f65b56987a5e625a3733bc816a64ad5cae975@165.227.110.208:52018",  //UnitedStates/NewYork
 }
 
 // RinkebyBootnodes are the enode URLs of the P2P bootstrap nodes running on the
@@ -46,4 +50,10 @@ var RinkebyV5Bootnodes = []string{
 
 // DiscoveryV5Bootnodes are the enode URLs of the P2P bootstrap nodes for the
 // experimental RLPx v5 topic-discovery network.
-var DiscoveryV5Bootnodes = []string{}
+var DiscoveryV5Bootnodes = []string{
+	"enode://8c6ddfa2265d2eb7a817a8b85fefe0e0014dfd72208e37b99a239fc2c5b0bf36498131a27080993d6fa12e1f927f29400a22ad8839bf1d2298b8a1efc684f2ae@159.89.11.168:52018",  //Germany/Frankfurt
+	"enode://8734af7e4c9ae0703d4e05cd6eb6f5761a8ee4b11f4bd528ff8e206daf8f4c1f73189bab73cc090102e31b84c5e3694985d077f8a8d69e1c443ccc235f51b01c@46.101.21.192:52018",  //UnitedKingdom/London
+	"enode://3c15548b70925dfe2e6f09da143b97f1b894e775d660f63979604952ca28347a6610bc1dffa694b8a86f3e912da4ab82a9009065410492c6fa901b9dcb3ae1f6@82.196.0.221:52018",   //Netherlands/Amsterdam
+	"enode://f3b197287ee6d2bd19be19cd74bed5b57fd5be67503053b42a52897b329c9eadf113a89b7b772680b55b3bb34681267766a13d0a8ddda058129f2bcc49a8f469@194.135.93.62:52018",  //Lithuania/Vilnius
+	"enode://05172e73e69050889df9e55b7c0a10c85a5e3ebc1080ed32faa392eebb40a6bb99d649847a37f5abbcd632ce5a5fa36d0246e0b33241072201045508a5e05e5f@159.89.189.241:52018", //UnitedStates/NewYork
+}
