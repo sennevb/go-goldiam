@@ -25,8 +25,8 @@ import (
 )
 
 var (
-	MainnetGenesisHash = common.HexToHash("0x626bdbf30a984d415540d47049fb149cb62368fe343d17c1b57bc600cd07d092") // Mainnet genesis hash to enforce below configs on
-	TestnetGenesisHash = common.HexToHash("0xf6963b74dcb9033e497e2d9ddbcd4f22e2713f9c26cbf46612bab6f76f7fb282") // Testnet genesis hash to enforce below configs on
+	MainnetGenesisHash = common.HexToHash("") // Mainnet genesis hash to enforce below configs on
+	TestnetGenesisHash = common.HexToHash("") // Testnet genesis hash to enforce below configs on
 )
 
 var (
@@ -35,7 +35,7 @@ var (
 		ChainId:         big.NewInt(1426),
 		HomesteadBlock:  big.NewInt(0),
 		EIP150Block:     big.NewInt(0),
-		EIP150Hash:      common.HexToHash("0x2086799aeebeae135c246c65021c82b4e15a2c451340993aacfd2751886514f0"),
+		EIP150Hash:      common.HexToHash(""),
 		EIP155Block:     big.NewInt(0),
 		EIP158Block:     big.NewInt(0),
 		MetropolisBlock: big.NewInt(math.MaxInt64), // Don't enable yet
@@ -48,7 +48,7 @@ var (
 		ChainId:         big.NewInt(1439),
 		HomesteadBlock:  big.NewInt(0),
 		EIP150Block:     big.NewInt(0),
-		EIP150Hash:      common.HexToHash("0x41941023680923e0fe4d74a34bdac8141f2540e3ae90623718e47d66d1ca4a2d"),
+		EIP150Hash:      common.HexToHash(""),
 		EIP155Block:     big.NewInt(10),
 		EIP158Block:     big.NewInt(10),
 		MetropolisBlock: big.NewInt(math.MaxInt64), // Don't enable yet
