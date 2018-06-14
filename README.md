@@ -121,31 +121,6 @@ This command will:
    This too is optional and if you leave it out you can always attach to an already running ggol instance
    with `ggol attach`.
 
-
-#### Docker quick start
-
-One of the quickest ways to get ggol up and running on your machine is by using Docker:
-
-```
-docker run -itd --name ggol  -p 2009:2009 -p 52018:52018 -p 52018:52018/udp ggol/ggol-node
-
-```
-
-Create an address:
-  * `docker exec -it ggol /bin/sh`
-  * `ggol attach`
-  * `personal.newAccount("passphrase")`
-  * `!!!!!!!!!! retrieve content and backup wallet !!!!!!!!!!!!!!!!!!!!`
-  * `exit`
-  * `cd /root/.goldiam/keystore/`
-  * `ls ( to view the file )`
-  * `cat NAME_OF_THE_FILE_YOU_SEE`
-  * `Copy the output`
-  * `Rpc port is available on your host @ 127.0.0.1:2009`
-
-
-This will start ggol in fast sync mode with a DB memory allowance of 512MB just as the above command does.  It will also create a persistent volume in your home directory for saving your blockchain as well as map the default ports. There is also an `alpine` tag available for a slim version of the image.
-
 ### Programatically interfacing ggol nodes
 
 As a developer, sooner rather than later you'll want to start interacting with ggol and the ggol
@@ -185,19 +160,8 @@ subvert locally available APIs!**
 
 #### Running a private miner directly on node
 
-Mac : https://github.com/ethereum-mining/ethminer/releases/download/v0.12.0/ethminer-0.12.0-Darwin.tar.gz
-Windows :
-https://github.com/ethereum-mining/ethminer/releases/download/v0.12.0/ethminer-0.12.0-Windows.zip
-Linux:
-https://github.com/ethereum-mining/ethminer/releases/download/v0.12.0/ethminer-0.12.0-Linux.tar.gz
-
-
-
 Mining on the public ggol network is a complex task as it's only feasible using GPUs, requiring
-an OpenCL or CUDA enabled `ethminer` instance. For information on such a setup, please consult the
-[EtherMining subreddit](https://www.reddit.com/r/goldiam/) and the 
-
-repository.
+an OpenCL or CUDA enabled `ethminer` instance.
 
 In a private network setting however, a single CPU miner instance is more than enough for practical
 purposes as it can produce a stable stream of blocks at the correct intervals without needing heavy
