@@ -73,19 +73,19 @@ The ggol project comes with several wrappers/executables found in the `cmd` dire
 
 | Command    | Description |
 |:----------:|-------------|
-| **`ggol`** | Our main ggol CLI client. It is the entry point into the ggol network (main-, test- or private net), capable of running as a full node (default) archive node (retaining all historical state) or a light node (retrieving data live). It can be used by other processes as a gateway into the ggol network via JSON RPC endpoints exposed on top of HTTP, WebSocket and/or IPC transports. `ggol --help` and the [CLI Wiki page](https://github.com/ggol/ggol/wiki/Command-Line-Options) for command line options. |
-| `abigen` | Source code generator to convert ggol contract definitions into easy to use, compile-time type-safe Go packages. It operates on plain [ggol contract ABIs](https://github.com/ggol/wiki/wiki/ggol-Contract-ABI) with expanded functionality if the contract bytecode is also available. However it also accepts Solidity source files, making development much more streamlined. Please see our [Native DApps](https://github.com/ggol/ggol/wiki/Native-DApps:-Go-bindings-to-ggol-contracts) wiki page for details. |
+| **`ggol`** | Our main ggol CLI client. It is the entry point into the ggol network (main-, test- or private net), capable of running as a full node (default) archive node (retaining all historical state) or a light node (retrieving data live). It can be used by other processes as a gateway into the ggol network via JSON RPC endpoints exposed on top of HTTP, WebSocket and/or IPC transports. `ggol --help` and the CLI Wiki page for command line options. |
+| `abigen` | Source code generator to convert ggol contract definitions into easy to use, compile-time type-safe Go packages. It operates on plain ggol contract ABIs with expanded functionality if the contract bytecode is also available. However it also accepts Solidity source files, making development much more streamlined. Please see our Native DApps wiki page for details. |
 | `bootnode` | Stripped down version of our ggol client implementation that only takes part in the network node discovery protocol, but does not run any of the higher level application protocols. It can be used as a lightweight bootstrap node to aid in finding peers in private networks. |
 | `evm` | Developer utility version of the EVM (ggol Virtual Machine) that is capable of running bytecode snippets within a configurable environment and execution mode. Its purpose is to allow insolated, fine-grained debugging of EVM opcodes (e.g. `evm --code 60ff60ff --debug`). |
-| `ggolrpctest` | Developer utility tool to support our [ggol/rpc-test](https://github.com/ggol/rpc-tests) test suite which validates baseline conformity to the [ggol JSON RPC](https://github.com/ggol/wiki/wiki/JSON-RPC) specs. Please see the [test suite's readme](https://github.com/ggol/rpc-tests/blob/master/README.md) for details. |
-| `rlpdump` | Developer utility tool to convert binary RLP ([Recursive Length Prefix](https://github.com/ggol/wiki/wiki/RLP)) dumps (data encoding used by the ggol protocol both network as well as consensus wise) to user friendlier hierarchical representation (e.g. `rlpdump --hex CE0183FFFFFFC4C304050583616263`). |
+| `ggolrpctest` | Developer utility tool to support our ggol/rpc-test test suite which validates baseline conformity to the ggol JSON RPC specs. Please see the test suite's readme for details. |
+| `rlpdump` | Developer utility tool to convert binary RLP (Recursive Length Prefix) dumps (data encoding used by the ggol protocol both network as well as consensus wise) to user friendlier hierarchical representation (e.g. `rlpdump --hex CE0183FFFFFFC4C304050583616263`). |
 | `swarm`    | swarm daemon and tools. This is the entrypoint for the swarm network. `swarm --help` for command line options and subcommands. See https://swarm-guide.readthedocs.io for swarm documentation. |
 | `puppeth`    | a CLI wizard that aids in creating a new ggol network. |
 
 ## Running ggol
 
 Going through all the possible command line flags is out of scope here (please consult our
-[CLI Wiki page](https://github.com/GoldiamTech/go-goldiam/wiki/Command-Line-Options)), but we've
+CLI Wiki page, but we've
 enumerated a few common parameter combos to get you up to speed quickly on how you can run your
 own ggol instance.
 
@@ -107,9 +107,9 @@ This command will:
  * Bump the memory allowance of the database to 512MB (`--cache=512`), which can help significantly in
    sync times especially for HDD users. This flag is optional and you can set it as high or as low as
    you'd like, though we'd recommend the 512MB - 2GB range.
- * Start up ggol's built-in interactive [JavaScript console](https://github.com/GoldiamTech/go-goldiam/wiki/JavaScript-Console),
-   (via the trailing `console` subcommand) through which you can invoke all official [`web3` methods](https://github.com/GoldiamTech/wiki/wiki/JavaScript-API)
-   as well as ggol's own [management APIs](https://github.com/GoldiamTech/go-goldiam/wiki/Management-APIs).
+ * Start up ggol's built-in interactive JavaScript console,
+   (via the trailing `console` subcommand) through which you can invoke all official `web3` methods
+   as well as ggol's own management APIs.
    This too is optional and if you leave it out you can always attach to an already running ggol instance
    with `ggol attach`.
 
