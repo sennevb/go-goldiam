@@ -6,6 +6,7 @@
   * Network ID : 1426
   * rpc port : 2009
   * Explorer: https://goldiamchain.io
+  * Explorer: https://explorer.goldiam.org
 
 
 ## Open Firewall Port:
@@ -63,10 +64,6 @@ WantedBy=default.target
 
 Official golang implementation of the Goldiam protocol.
 
-
-Automated builds are available for stable releases and the unstable master branch.
-Binary archives are published at http://release.goldiam.io
-For linux: http://release.goldiam.io/latest.tar.gz
 
 ## Building the source
 
@@ -153,8 +150,7 @@ This will start ggol in fast sync mode with a DB memory allowance of 512MB just 
 
 As a developer, sooner rather than later you'll want to start interacting with ggol and the ggol
 network via your own programs and not manually through the console. To aid this, ggol has built in
-support for a JSON-RPC based APIs ([standard APIs](https://github.com/GoldiamTech/wiki/wiki/JSON-RPC) and
-[ggol specific APIs](https://github.com/GoldiamTech/go-goldiam/wiki/Management-APIs)). These can be
+support for a JSON-RPC based APIs. These can be
 exposed via HTTP, WebSockets and IPC (unix sockets on unix based platforms, and named pipes on Windows).
 
 The IPC interface is enabled by default and exposes all the APIs supported by ggol, whereas the HTTP
