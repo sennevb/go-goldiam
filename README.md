@@ -28,15 +28,7 @@ Balance: web3.fromWei(eth.getBalance("youraddress"), "ether") or or web3.fromWei
 
 Send transaction: eth.sendTransaction({from: "address", to: "address", value: web3.toWei(1, "ether")})
 
-## Quickstart docker:
-```
-docker run -itd --name ggol  -p 2009:2009 -p 52018:52018 -p 52018:52018/udp ggol/ggol-node
-```
-  * to enter the container:
-```
-  docker exec -it ggol /bin/sh
-```
-You can also find compiled bin in release.
+
 
 ## Run bin in Linux:
 ```
